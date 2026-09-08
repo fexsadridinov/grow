@@ -125,7 +125,7 @@ export function FieldMapMockup({
               y="292"
               fill="rgba(250,250,247,0.45)"
               fontSize="9"
-              fontFamily="var(--font-geist-mono)"
+              fontFamily="var(--font-ibm-plex-mono), ui-monospace, monospace"
               letterSpacing="0.12em"
             >
               49.24 N · 28.47 E

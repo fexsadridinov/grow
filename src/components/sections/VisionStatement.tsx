@@ -42,7 +42,7 @@ export function VisionStatement() {
       <div className="relative mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[820px]">
           <p className="tech-label text-moss">{t("eyebrow")}</p>
-          <h2 className="mt-6 font-sans text-[2.1rem] leading-[1.12] tracking-[-0.04em] sm:text-5xl lg:text-[3.5rem]">
+          <h2 className="mt-6 font-sans text-[2.1rem] font-semibold leading-[1.12] tracking-[-0.04em] sm:text-5xl lg:text-[3.5rem]">
             {t("title")}
           </h2>
           <div className="mt-10 max-w-xl space-y-4 text-lg leading-8 text-paper/70">
@@ -50,7 +50,7 @@ export function VisionStatement() {
             <p>{t("intervention")}</p>
             <p>{t("evidence")}</p>
           </div>
-          <p className="mt-10 max-w-2xl font-serif text-2xl leading-snug text-paper/90 sm:text-[1.9rem]">
+          <p className="mt-10 max-w-2xl font-sans text-2xl font-medium leading-snug text-paper/90 sm:text-[1.9rem]">
             {t("body")}
           </p>
         </div>

@@ -42,7 +42,7 @@ export function OutcomeLearning() {
           <span className="text-signal"> + </span>
           {t("outcome")}
         </p>
-        <p className="mt-8 max-w-2xl font-serif text-2xl leading-snug sm:text-[1.85rem]">
+        <p className="mt-8 max-w-2xl font-sans text-2xl font-medium leading-snug sm:text-[1.85rem]">
           {t("quote")}
         </p>
         <p className="mt-6 text-sm text-paper/55">{t("memory")}</p>

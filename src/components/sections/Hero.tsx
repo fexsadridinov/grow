@@ -17,7 +17,7 @@ export function Hero() {
         <div className="mx-auto grid max-w-[1280px] items-center gap-12 lg:grid-cols-[minmax(0,0.92fr)_minmax(0,1.08fr)] lg:gap-16">
           <div className="max-w-xl">
             <Eyebrow>{t("hero.eyebrow")}</Eyebrow>
-            <h1 className="mt-6 max-w-[20ch] font-sans text-[2.35rem] leading-[1.05] tracking-[-0.045em] sm:text-5xl lg:text-[4.25rem]">
+            <h1 className="mt-6 max-w-[20ch] font-sans text-[2.35rem] font-semibold leading-[1.05] tracking-[-0.045em] sm:text-5xl lg:text-[4.25rem]">
               {t("hero.headline")}
             </h1>
             <p className="mt-6 max-w-[42ch] text-[17px] leading-7 text-ink/70 sm:text-lg">

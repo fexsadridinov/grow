@@ -10,6 +10,7 @@ import { cn } from "@/lib/utils";
 
 type LanguageSwitcherProps = {
   variant?: "desktop" | "mobile";
+  onAfterSelect?: () => void;
 };
 
 const HASH_STORAGE_KEY = "fieldos-locale-hash";
@@ -21,7 +22,10 @@ function queryOptions(root: HTMLDivElement | null): HTMLButtonElement[] {
   return Array.from(root.querySelectorAll<HTMLButtonElement>('[role="option"]'));
 }
 
-export function LanguageSwitcher({ variant = "desktop" }: LanguageSwitcherProps) {
+export function LanguageSwitcher({
+  variant = "desktop",
+  onAfterSelect,
+}: LanguageSwitcherProps) {
   const t = useTranslations("common");
   const locale = useLocale() as Locale;
   const router = useRouter();
@@ -105,6 +109,7 @@ export function LanguageSwitcher({ variant = "desktop" }: LanguageSwitcherProps)
     }
     router.replace(pathname, { locale: next });
     setOpen(false);
+    onAfterSelect?.();
   }
 
   if (variant === "mobile") {

@@ -58,7 +58,7 @@ export function DiagnosisPanel() {
               y="144"
               fill="#FAFAF7"
               fontSize="10"
-              fontFamily="var(--font-geist-sans), var(--font-inter), sans-serif"
+              fontFamily="var(--font-manrope), system-ui, sans-serif"
               letterSpacing="0.08em"
             >
               {t("olderLeaf")}

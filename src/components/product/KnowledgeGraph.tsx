@@ -113,7 +113,7 @@ export function KnowledgeGraph() {
                       dominantBaseline="middle"
                       fontSize={node.primary ? 9 : 8}
                       fill={isActive ? "#FAFAF7" : "#132019"}
-                      fontFamily="var(--font-geist-sans), var(--font-inter), sans-serif"
+                      fontFamily="var(--font-manrope), system-ui, sans-serif"
                     >
                       {line}
                     </text>

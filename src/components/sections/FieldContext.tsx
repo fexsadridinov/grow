@@ -63,7 +63,7 @@ export function FieldContext() {
         </ul>
       </div>
 
-      <p className="mx-auto mt-16 max-w-3xl text-center font-serif text-[1.7rem] leading-snug tracking-[-0.02em] text-ink sm:text-3xl lg:text-[2.35rem]">
+      <p className="mx-auto mt-16 max-w-3xl text-center font-sans text-[1.7rem] font-medium leading-snug tracking-[-0.02em] text-ink sm:text-3xl lg:text-[2.35rem]">
         {t("statement")}
       </p>
     </Section>

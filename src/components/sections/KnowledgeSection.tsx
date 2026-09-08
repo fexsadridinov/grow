@@ -45,7 +45,7 @@ export function KnowledgeSection() {
           <span className="text-signal">=</span>
           <span>{t("retrievalPriority")}</span>
         </p>
-        <p className="mt-8 max-w-2xl font-serif text-2xl leading-snug text-paper/90 sm:text-[1.85rem]">
+        <p className="mt-8 max-w-2xl font-sans text-2xl font-medium leading-snug text-paper/90 sm:text-[1.85rem]">
           {t("quote")}
         </p>
       </div>

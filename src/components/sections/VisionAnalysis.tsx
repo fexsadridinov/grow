@@ -17,7 +17,7 @@ export function VisionAnalysis() {
       <div className="mt-12">
         <DiagnosisPanel />
       </div>
-      <p className="mt-12 max-w-3xl font-serif text-[1.65rem] leading-snug tracking-[-0.02em] sm:text-3xl">
+      <p className="mt-12 max-w-3xl font-sans text-[1.65rem] font-medium leading-snug tracking-[-0.02em] sm:text-3xl">
         {t("statement")}
       </p>
     </Section>

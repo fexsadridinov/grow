@@ -37,7 +37,7 @@ function isLink(props: ButtonProps): props is ButtonAsLink {
 
 export function Button(props: ButtonProps) {
   const classes = cn(
-    "inline-flex h-12 min-w-0 items-center justify-center rounded-lg px-5 text-[15px] font-medium tracking-[-0.01em] transition-colors duration-300 disabled:cursor-not-allowed disabled:opacity-60",
+    "inline-flex h-12 min-w-0 items-center justify-center rounded-lg px-5 text-[15px] font-semibold tracking-[-0.01em] transition-colors duration-300 disabled:cursor-not-allowed disabled:opacity-60",
     variants[props.variant ?? "primary"],
     props.className,
   );
