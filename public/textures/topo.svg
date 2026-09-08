@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="Placeholder topographic texture">
+  <rect width="400" height="400" fill="#E9E6DC"/>
+  <g fill="none" stroke="#173C2B" stroke-opacity="0.18" stroke-width="1">
+    <ellipse cx="200" cy="200" rx="40" ry="28"/>
+    <ellipse cx="200" cy="200" rx="80" ry="56"/>
+    <ellipse cx="200" cy="200" rx="120" ry="84"/>
+    <ellipse cx="200" cy="200" rx="160" ry="112"/>
+    <ellipse cx="200" cy="200" rx="190" ry="140"/>
+  </g>
+</svg>

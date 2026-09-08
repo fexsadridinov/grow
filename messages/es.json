@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "title": "FIELDOS — plataforma de inteligencia agrícola",
+    "titleTemplate": "%s — FIELDOS",
+    "description": "FIELDOS es una plataforma de inteligencia agrícola diseñada para integrar imágenes de parcelas, conocimiento agronómico, clima, suelo, historial y resultados en mejores decisiones de campo.",
+    "privacyTitle": "Privacidad",
+    "privacyDescription": "Información de privacidad de FIELDOS.",
+    "termsTitle": "Términos",
+    "termsDescription": "Términos de uso de FIELDOS.",
+    "notFoundTitle": "Página no encontrada"
+  },
+  "common": {
+    "skipToContent": "Saltar al contenido",
+    "conceptual": "Experiencia de producto conceptual",
+    "conceptualOutput": "Resultado conceptual",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "primaryNav": "Navegación principal",
+    "mobileNav": "Navegación móvil",
+    "language": "Idioma",
+    "openLanguageMenu": "Abrir menú de idiomas",
+    "closeLanguageMenu": "Cerrar menú de idiomas",
+    "currentLanguage": "Idioma actual",
+    "optional": "Opcional",
+    "center": "Centro",
+    "navigate": "Navegar",
+    "legal": "Legal",
+    "copyright": "© {year} FIELDOS",
+    "conceptNote": "Una concepción de producto de inteligencia agrícola.",
+    "hectares": "ha",
+    "highConfidence": "Alta confianza"
+  },
+  "nav": {
+    "system": "Sistema",
+    "howItWorks": "Cómo funciona",
+    "intelligence": "Inteligencia",
+    "vision": "Visión",
+    "agronomists": "Para agrónomos",
+    "roadmap": "Hoja de ruta",
+    "earlyAccess": "Acceso anticipado",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  },
+  "cta": {
+    "requestAccess": "Solicitar acceso anticipado",
+    "exploreSystem": "Explorar el sistema",
+    "partner": "Asociarse con nosotros",
+    "returnHome": "Volver al inicio",
+    "submitting": "Enviando…"
+  },
+  "hero": {
+    "eyebrow": "Inteligencia agrícola",
+    "headline": "Inteligencia operativa para la agricultura.",
+    "body": "FIELDOS integra imágenes, historial de la parcela, conocimiento agronómico, clima, suelo, intervenciones y resultados en un solo sistema — para que cada parcela se comprenda en contexto."
+  },
+  "fieldContext": {
+    "eyebrow": "El problema central",
+    "title": "Una parcela es más que una imagen.",
+    "p1": "La mayoría de las herramientas agrícolas observan una señal a la vez. Una fotografía. Un pronóstico. Un informe de suelo. Un índice satelital. Una nota del productor.",
+    "p2": "Las decisiones agrícolas dependen de cómo se relacionan esas señales entre sí.",
+    "centerLabel": "Contexto de la parcela",
+    "statement": "FIELDOS está diseñado en torno a la parcela — no a la consulta.",
+    "inputs": {
+      "imagery": "Imágenes",
+      "weather": "Clima",
+      "soil": "Suelo",
+      "cropStage": "Etapa de desarrollo del cultivo",
+      "fieldHistory": "Historial de la parcela",
+      "agronomy": "Agronomía",
+      "interventions": "Intervenciones",
+      "outcomes": "Resultados"
+    }
+  },
+  "intelligenceLoop": {
+    "eyebrow": "El ciclo de inteligencia",
+    "title": "De la observación al resultado.",
+    "body": "El sistema está diseñado como un ciclo continuo, no como una pregunta y una respuesta aisladas. Cada paso deja un registro que la siguiente campaña puede usar.",
+    "steps": {
+      "observe": {
+        "label": "Observar",
+        "copy": "Imágenes, sensores, notas de campo, clima, suelo y teledetección."
+      },
+      "understand": {
+        "label": "Comprender",
+        "copy": "Identificar síntomas, anomalías, causas probables e información faltante."
+      },
+      "decide": {
+        "label": "Decidir",
+        "copy": "Comparar opciones, riesgos, ventanas de tiempo, evidencia agronómica y contexto de la parcela."
+      },
+      "act": {
+        "label": "Actuar",
+        "copy": "Convertir las recomendaciones en prioridades e intervenciones claras."
+      },
+      "measure": {
+        "label": "Medir",
+        "copy": "Seguir si las condiciones de la parcela mejoran, empeoran o se mantienen."
+      },
+      "learn": {
+        "label": "Aprender",
+        "copy": "Cada intervención y cada resultado pasan a formar parte del historial de la parcela."
+      }
+    }
+  },
+  "productExperience": {
+    "eyebrow": "Experiencia de producto",
+    "title": "Una parcela. Una fuente de verdad que evoluciona.",
+    "body": "Cada parcela mantiene un modelo persistente: qué se observó, qué se recomendó, qué se hizo y qué cambió después.",
+    "farm": "Explotación",
+    "farmName": "Bloque Norte",
+    "timeline": "Cronología de la parcela",
+    "fieldHealth": "Estado de la parcela",
+    "healthIndex": "Índice compuesto de dosel, humedad y estrés",
+    "status": "Estado",
+    "weather": "Clima",
+    "alerts": "Alertas",
+    "latestObservation": "Última observación",
+    "primaryConcern": "Problema principal",
+    "confidence": "Confianza",
+    "affectedArea": "Superficie afectada",
+    "recommendedAction": "Siguiente acción recomendada",
+    "mapAlt": "Mapa conceptual de {name} con zonas de estado y anomalías.",
+    "fieldHealthScore": "Estado de la parcela {score} de {max}"
+  },
+  "architectureComparison": {
+    "eyebrow": "Arquitectura",
+    "title": "Construido en torno a la inteligencia continua, no a respuestas aisladas.",
+    "body": "Un chatbot puede resumir. Una capa de inteligencia debe recordar la parcela: qué ocurrió, qué se intentó y si funcionó.",
+    "chatbot": "Chatbot",
+    "questionAnswer": "Pregunta → Respuesta",
+    "limits": {
+      "resets": "El contexto se reinicia.",
+      "generic": "El conocimiento es genérico.",
+      "noModel": "No hay un modelo persistente de la parcela.",
+      "noOutcomes": "No se miden los resultados."
+    },
+    "path": {
+      "field": "Parcela",
+      "history": "Historial",
+      "observation": "Observación",
+      "knowledge": "Conocimiento",
+      "decision": "Decisión",
+      "action": "Acción",
+      "outcome": "Resultado",
+      "learning": "Aprendizaje"
+    }
+  },
+  "knowledge": {
+    "eyebrow": "Conocimiento",
+    "title": "La agronomía debe basarse en evidencia.",
+    "body": "FIELDOS está diseñado para consultar una base de conocimiento agrícola curada — no para improvisar solo a partir del lenguaje genérico. Las fuentes siguientes describen la arquitectura prevista, no la afirmación de que cada corpus ya está conectado.",
+    "retrievalPriority": "Prioridad de recuperación",
+    "quote": "El objetivo no es simplemente generar una respuesta. Es encontrar la información que realmente aplica a esta parcela.",
+    "factors": {
+      "relevance": "Relevancia",
+      "sourceQuality": "Calidad de la fuente",
+      "cropFit": "Ajuste al cultivo",
+      "geographicFit": "Ajuste geográfico",
+      "recency": "Actualidad"
+    },
+    "sources": {
+      "research": {
+        "title": "Investigación revisada por pares",
+        "description": "Literatura primaria para fundamentar hipótesis en evidencia publicada."
+      },
+      "extension": {
+        "title": "Extensión universitaria",
+        "description": "Práctica agronómica regional escrita para explotaciones en operación."
+      },
+      "handbooks": {
+        "title": "Manuales agronómicos",
+        "description": "Referencias establecidas de diagnóstico y manejo del cultivo."
+      },
+      "regional": {
+        "title": "Orientación regional",
+        "description": "Contexto climático, edáfico y normativo que cambia según la geografía."
+      },
+      "expert": {
+        "title": "Conocimiento experto",
+        "description": "Correcciones, notas y criterio de agrónomos en ejercicio."
+      },
+      "protocols": {
+        "title": "Protocolos internos de la explotación",
+        "description": "Los estándares, umbrales y reglas de tratamiento de la propia operación."
+      }
+    }
+  },
+  "inputs": {
+    "eyebrow": "Entradas multimodales",
+    "title": "Cada señal pesa más en contexto.",
+    "body": "Las mediciones aisladas son ruidosas. Combinadas con la etapa del cultivo, el historial y la agronomía local, se convierten en evidencia.",
+    "items": {
+      "photos": {
+        "label": "Fotografías",
+        "description": "Síntomas visuales, estado del cultivo, malezas, plagas, dosel."
+      },
+      "field-data": {
+        "label": "Datos de la parcela",
+        "description": "Cultivo, cultivar, fecha de siembra, tratamientos, observaciones."
+      },
+      "weather": {
+        "label": "Clima",
+        "description": "Precipitación, temperatura, humedad, viento, evapotranspiración."
+      },
+      "soil": {
+        "label": "Suelo",
+        "description": "pH, nutrientes, textura, humedad, salinidad."
+      },
+      "satellite": {
+        "label": "Satélite",
+        "description": "Índices de vegetación y detección de anomalías temporales."
+      },
+      "drones": {
+        "label": "Drones",
+        "description": "Imágenes de alta resolución y cartografía a escala de parcela."
+      },
+      "expert": {
+        "label": "Aporte experto",
+        "description": "Validación y correcciones del agrónomo."
+      },
+      "outcomes": {
+        "label": "Resultados",
+        "description": "Rendimiento, recuperación, evolución de la enfermedad, respuesta a la intervención."
+      }
+    }
+  },
+  "visionAnalysis": {
+    "eyebrow": "Análisis de imagen",
+    "title": "Una fotografía es evidencia — no la conclusión.",
+    "body": "Los síntomas visuales inician una hipótesis. La confianza es explícita. El siguiente paso es la confirmación en campo, no un diagnóstico cerrado a partir de una imagen sola.",
+    "statement": "Observación → hipótesis → confianza → confirmación → acción.",
+    "visualObservation": "Observación visual",
+    "possibleCauses": "Causas posibles",
+    "confirmation": "Confirmación",
+    "olderLeaf": "Hoja vieja",
+    "leafAlt": "Hoja estilizada con clorosis en tejido más viejo.",
+    "observation": "Clorosis en hojas viejas",
+    "severity": "Severidad moderada",
+    "causes": {
+      "nitrogen": "Deficiencia de nitrógeno",
+      "sulfur": "Deficiencia de azufre",
+      "waterlogging": "Encharcamiento"
+    },
+    "tests": {
+      "tissue": "Análisis de tejido foliar",
+      "nitrate": "Prueba de nitratos en suelo",
+      "canopy": "Inspeccionar el dosel inferior"
+    }
+  },
+  "drone": {
+    "eyebrow": "Sensórica en la hoja de ruta",
+    "title": "De plantas individuales a parcelas enteras.",
+    "body": "Las fotografías de mano son la resolución de partida. La plataforma se diseña para que las capas de dron y satélite amplíen esa vista sin cambiar el modelo subyacente de la parcela.",
+    "pipelineLabel": "Flujo de dron",
+    "disclaimer": "Las capacidades de dron y teledetección pertenecen a la hoja de ruta de la plataforma.",
+    "raster": "Ráster de parcela estilizado",
+    "conceptualNdvi": "NDVI · Conceptual",
+    "lowVigor": "Bajo vigor",
+    "highVigor": "Alto vigor",
+    "rasterAlt": "Ráster topográfico estilizado de una parcela con una zona de anomalía.",
+    "steps": {
+      "flight": "Vuelo de dron",
+      "geotagged": "Imágenes georreferenciadas",
+      "orthomosaic": "Ortomosaico",
+      "segmentation": "Segmentación de la parcela",
+      "anomaly": "Detección de anomalías",
+      "samples": "Muestras representativas",
+      "interpretation": "Interpretación agronómica",
+      "zones": "Zonas de manejo"
+    }
+  },
+  "predictive": {
+    "eyebrow": "Anticipación",
+    "title": "Comprender lo que ocurre. Luego anticipar lo que sigue.",
+    "body": "Los módulos predictivos se muestran aquí como resultados conceptuales: la forma prevista del sistema, no pronósticos de producción validados.",
+    "modules": {
+      "disease": {
+        "title": "Riesgo de enfermedad",
+        "from": "Moderado",
+        "to": "Alto",
+        "reason": "Humectación foliar persistente + perfil de humedad + etapa de desarrollo del cultivo"
+      },
+      "moisture": {
+        "title": "Estrés hídrico",
+        "from": "Estable",
+        "to": "Vigilancia",
+        "reason": "Déficit de lluvia de cuatro días frente al balance hídrico actual del suelo"
+      },
+      "yield": {
+        "title": "Trayectoria de rendimiento",
+        "value": "8.1–9.2 t/ha",
+        "reason": "Riesgo principal: estrés térmico durante el llenado de grano"
+      },
+      "anomalies": {
+        "title": "Anomalías de parcela",
+        "value": "2 zonas",
+        "reason": "Divergencia del dosel en el noroeste frente a la línea base quinquenal de la parcela"
+      }
+    }
+  },
+  "outcomeLearning": {
+    "eyebrow": "La capa que se acumula",
+    "title": "Cada decisión genera nueva inteligencia.",
+    "body": "El conjunto de datos agrícolas más valioso no es solo imagen → diagnóstico. Es el ciclo cerrado de contexto, acción y resultado.",
+    "equationLabel": "Ecuación de aprendizaje",
+    "image": "imagen",
+    "fieldContext": "contexto de la parcela",
+    "recommendation": "recomendación",
+    "intervention": "intervención",
+    "outcome": "resultado",
+    "quote": "Con el tiempo, la plataforma puede aprender no solo cómo se ve una parcela — sino qué funcionó de verdad.",
+    "memory": "FIELDOS se diseña para que cada campaña forme parte de la memoria del sistema.",
+    "loop": {
+      "recommendation": "Recomendación",
+      "farmerAction": "Acción del productor",
+      "fieldResponse": "Respuesta de la parcela",
+      "outcome": "Resultado",
+      "futureDecision": "Decisión futura"
+    }
+  },
+  "agronomistMode": {
+    "eyebrow": "Revisión experta",
+    "title": "IA que trabaja con los agrónomos, no a su alrededor.",
+    "body": "La salida del modelo es un borrador. Los agrónomos confirman, corrigen y aportan contexto. Esas correcciones deben mejorar conjuntos de datos, evaluación, recuperación y el desempeño futuro de los modelos.",
+    "points": {
+      "datasets": "Los conjuntos de datos se vuelven más honestos.",
+      "evaluation": "La evaluación registra el desacuerdo experto.",
+      "retrieval": "La recuperación puede priorizar el conocimiento corregido localmente.",
+      "models": "Los modelos futuros se entrenan con el criterio de campo."
+    },
+    "panelLabel": "Revisión experta",
+    "aiAssessment": "Evaluación de IA",
+    "agronomistReview": "Revisión del agrónomo",
+    "incorrect": "Diagnóstico incorrecto",
+    "correctClassification": "Clasificación correcta: {label}",
+    "expertNote": "Nota del experto: {note}",
+    "confirm": "Confirmar",
+    "correct": "Corregir",
+    "addContext": "Añadir contexto",
+    "idle": "Los botones demuestran el flujo de revisión. No se almacenan datos.",
+    "confirmed": "Marcado como confirmado. El acuerdo del experto se guardaría en el registro de la parcela.",
+    "corrected": "Corrección capturada. El modelo de la parcela retendría tanto la etiqueta original como la del experto.",
+    "noted": "El contexto se adjuntaría a esta observación para su recuperación posterior.",
+    "aiLabel": "Deficiencia de nitrógeno",
+    "correction": "Deficiencia de azufre",
+    "note": "El crecimiento nuevo muestra clorosis más temprana."
+  },
+  "geography": {
+    "eyebrow": "Lugar",
+    "title": "La agronomía es local.",
+    "body": "El mismo cultivo. Otra región. Otro suelo. Otro clima. Otra recomendación. El sistema está diseñado para que la lógica se filtre por el lugar — no para copiarse de una geografía a otra.",
+    "region": "Región",
+    "crop": "Cultivo",
+    "soil": "Suelo",
+    "climate": "Clima",
+    "filters": {
+      "region": "Región",
+      "climate": "Clima",
+      "soil": "Suelo",
+      "crop": "Cultivo",
+      "cultivar": "Cultivar",
+      "growthStage": "Etapa de desarrollo",
+      "regulation": "Normativa"
+    },
+    "regions": {
+      "ukraine": {
+        "name": "Ucrania",
+        "crop": "Trigo de invierno",
+        "soil": "Chernozem",
+        "climate": "Continental",
+        "note": "El momento de aplicación de nitrógeno sigue una primavera más fría y una ventana más tardía de encañado."
+      },
+      "kansas": {
+        "name": "Kansas",
+        "crop": "Trigo de invierno",
+        "soil": "Franco limoso",
+        "climate": "Llanuras semiáridas",
+        "note": "La escasez de humedad puede imitar el estrés nutricional más adelante en el llenado de grano."
+      },
+      "argentina": {
+        "name": "Argentina",
+        "crop": "Trigo de invierno",
+        "soil": "Franco de la Pampa",
+        "climate": "Subtropical húmedo",
+        "note": "La presión de enfermedad aumenta antes bajo humectación foliar prolongada."
+      },
+      "france": {
+        "name": "Francia",
+        "crop": "Trigo de invierno",
+        "soil": "Limo calcáreo",
+        "climate": "Oceánico",
+        "note": "Los límites normativos y la elección de cultivar condicionan la estrategia de nitrógeno."
+      }
+    }
+  },
+  "knowledgeGraph": {
+    "eyebrow": "Conocimiento estructurado",
+    "title": "De documentos a conocimiento agronómico conectado.",
+    "body": "La búsqueda encuentra una página. Un grafo puede sostener las relaciones que los agrónomos usan de verdad: síntomas, semejantes, condiciones y cultivos.",
+    "graphLabel": "Grafo de conocimiento agronómico",
+    "designedArchitecture": "Arquitectura diseñada",
+    "selectedNode": "Nodo seleccionado",
+    "selectNode": "Seleccionar un nodo",
+    "nitrogenCopy": "Síntomas conectados, condiciones de suelo y deficiencias semejantes que deben considerarse juntos.",
+    "septoriaCopy": "Contexto del patógeno que depende del cultivo, el clima y la etapa de desarrollo — no de una coincidencia de palabra clave.",
+    "alt": "Diagrama de red que conecta la deficiencia de nitrógeno y Septoria con conceptos agronómicos relacionados.",
+    "nodes": {
+      "n-def": "Deficiencia de nitrógeno",
+      "chlorosis": "Clorosis",
+      "older-leaves": "Hojas viejas",
+      "low-n": "N disponible bajo",
+      "roots": "Crecimiento radicular pobre",
+      "waterlog": "Encharcamiento",
+      "sulfur": "Deficiencia de azufre",
+      "septoria": "Septoria",
+      "wheat": "Trigo",
+      "humidity": "Humedad",
+      "rainfall": "Precipitación",
+      "lesions": "Lesiones foliares",
+      "stage": "Etapa de desarrollo"
+    }
+  },
+  "dashboard": {
+    "eyebrow": "Operación diaria",
+    "title": "Una vista de lo que requiere atención hoy.",
+    "body": "Las prioridades deben aparecer antes de que el agrónomo tenga que buscarlas. Esta es una vista matutina representativa, no un canal operativo en tiempo real.",
+    "operations": "Operaciones",
+    "greeting": "Buenos días",
+    "fieldsMonitored": "Parcelas en seguimiento",
+    "totalArea": "Superficie total",
+    "needAttention": "Requieren atención",
+    "priorityInspections": "Inspecciones prioritarias",
+    "farmCondition": "Estado de la explotación",
+    "activeRiskArea": "Superficie estimada de riesgo activo",
+    "status": "Estado",
+    "stableOverall": "Estable en conjunto",
+    "affected": "{area} afectadas"
+  },
+  "userGroups": {
+    "eyebrow": "Audiencia",
+    "title": "Diseñado para decisiones en toda la operación agrícola.",
+    "items": {
+      "agronomists": {
+        "title": "Agrónomos",
+        "copy": "Diagnosticar, verificar, comparar y documentar decisiones de parcela."
+      },
+      "operators": {
+        "title": "Operadores de explotación",
+        "copy": "Ver las prioridades en cada parcela."
+      },
+      "companies": {
+        "title": "Empresas agrícolas",
+        "copy": "Estandarizar la inteligencia de parcelas en operaciones de gran escala."
+      },
+      "researchers": {
+        "title": "Investigadores y socios",
+        "copy": "Conectar la ciencia agronómica con resultados reales de campo."
+      }
+    }
+  },
+  "roadmap": {
+    "eyebrow": "Hoja de ruta del producto",
+    "title": "Construir la inteligencia por capas.",
+    "body": "Las capacidades se secuencian a propósito. Los elementos de Siguiente y Más adelante no se presentan como disponibles hoy.",
+    "now": {
+      "label": "Ahora",
+      "caption": "Base de la inteligencia centrada en la parcela.",
+      "items": {
+        "profiles": "Perfiles de parcela",
+        "seasons": "Campañas de cultivo",
+        "images": "Observaciones por imagen",
+        "agronomy": "Conocimiento agronómico",
+        "analysis": "Análisis de IA contextual",
+        "recommendations": "Recomendaciones",
+        "review": "Revisión experta"
+      }
+    },
+    "next": {
+      "label": "Siguiente",
+      "caption": "Contexto ambiental y remoto más amplio.",
+      "items": {
+        "weather": "Inteligencia climática",
+        "soil": "Integración de suelo",
+        "satellite": "Seguimiento satelital",
+        "anomaly": "Detección de anomalías",
+        "timeline": "Cronología del estado de la parcela"
+      }
+    },
+    "later": {
+      "label": "Más adelante",
+      "caption": "Sensórica a escala de parcela y sistemas operativos.",
+      "items": {
+        "drones": "Incorporación de drones",
+        "orthomosaics": "Ortomosaicos",
+        "zones": "Zonas de manejo",
+        "prescriptions": "Mapas de prescripción",
+        "predictive": "Agronomía predictiva",
+        "machines": "Integración de maquinaria"
+      }
+    }
+  },
+  "vision": {
+    "eyebrow": "Visión",
+    "title": "La explotación debe volverse más inteligente cada campaña.",
+    "history": "Cada parcela tiene un historial.",
+    "intervention": "Cada intervención genera un resultado.",
+    "evidence": "Cada campaña aporta evidencia.",
+    "body": "FIELDOS se diseña para convertir ese conocimiento acumulado en mejores decisiones — parcela a parcela, campaña a campaña."
+  },
+  "finalCta": {
+    "eyebrow": "Acceso anticipado",
+    "title": "Ayude a construir la capa de inteligencia para la agricultura.",
+    "body": "Buscamos agrónomos, productores, investigadores y socios agrícolas que quieran dar forma a la plataforma desde el inicio.",
+    "inquiries": "Consultas de alianza: {email}"
+  },
+  "forms": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "organization": "Organización",
+    "role": "Rol",
+    "country": "País",
+    "intent": "¿Qué le gustaría que FIELDOS resolviera primero?",
+    "success": "Gracias. Nos pondremos en contacto cuando se abra la lista de acceso anticipado.",
+    "errors": {
+      "name": "Indique su nombre.",
+      "email": "Indique una dirección de correo válida.",
+      "organization": "Indique su organización.",
+      "role": "Seleccione un rol.",
+      "generic": "No es posible enviar ahora. Inténtelo de nuevo."
+    },
+    "roles": {
+      "farmer": "Productor",
+      "agronomist": "Agrónomo",
+      "researcher": "Investigador",
+      "agCompany": "Empresa agrícola",
+      "investor": "Inversor",
+      "technologyPartner": "Socio tecnológico",
+      "other": "Otro"
+    }
+  },
+  "footer": {
+    "supportingLine": "Inteligencia agrícola, construida en torno a la parcela."
+  },
+  "legalPages": {
+    "privacyTitle": "Privacidad",
+    "privacyP1": "Esta página es un marcador de posición. FIELDOS es un sitio de concepción de producto. Se publicará una política de privacidad completa antes de que comience cualquier recolección de datos de producción.",
+    "privacyP2": "El formulario de acceso anticipado no almacena actualmente nada más que un registro de servidor de los campos enviados. Escriba a {email} si tiene preguntas.",
+    "termsTitle": "Términos",
+    "termsP1": "Esta página es un marcador de posición. Las visualizaciones de producto en este sitio son representaciones conceptuales de FIELDOS, no un sistema de producción en vivo ni una oferta comercial.",
+    "termsP2": "Los términos de uso formales se emitirán antes de cualquier despliegue de pago u operativo. Escriba a {email} para conversaciones de alianza."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "Esa ruta no forma parte del sitio de FIELDOS."
+  },
+  "fields": {
+    "intelligence": "Inteligencia de parcela",
+    "crops": {
+      "winterWheat": "Trigo de invierno",
+      "sunflower": "Girasol"
+    },
+    "weather": {
+      "overcast": "Nublado",
+      "humid": "Húmedo",
+      "dry": "Seco",
+      "clear": "Despejado"
+    },
+    "severity": {
+      "high": "Alto",
+      "moderate": "Moderado",
+      "low": "Bajo"
+    },
+    "priority": {
+      "high": "Alta prioridad",
+      "medium": "Media",
+      "low": "Baja"
+    },
+    "status": {
+      "stable": "Estable",
+      "attention": "Atención",
+      "watch": "Vigilancia"
+    },
+    "farmCondition": {
+      "stable": "Estable"
+    },
+    "soilMoistureStable": "Humedad del suelo estable",
+    "zones": {
+      "zone-healthy": "Dosel uniforme",
+      "zone-watch": "Dosel raleado",
+      "zone-stress": "Estrés de nitrógeno",
+      "zone-stable": "Humedad del suelo estable"
+    },
+    "items": {
+      "field-14": {
+        "name": "Norte 14",
+        "code": "FIELD 14",
+        "primaryConcern": "Posible estrés de nitrógeno",
+        "recommendedAction": "Inspeccionar cinco puntos en la zona afectada y verificar con análisis de tejido."
+      },
+      "field-7": {
+        "name": "Este 7",
+        "code": "FIELD 7",
+        "primaryConcern": "Riesgo de enfermedad fúngica en aumento"
+      },
+      "field-21": {
+        "name": "Sur 21",
+        "code": "FIELD 21",
+        "primaryConcern": "Pronóstico de humedad del suelo por debajo del objetivo en 4 días"
+      },
+      "field-3": {
+        "name": "Oeste 3",
+        "code": "FIELD 3"
+      }
+    },
+    "risks": {
+      "n-stress": "Estrés de nitrógeno",
+      "disease": "Riesgo de enfermedad",
+      "fungal": "Riesgo de enfermedad fúngica",
+      "moisture": "Humedad del suelo en descenso"
+    },
+    "timeline": {
+      "t1-14": "Posible estrés de nitrógeno detectado",
+      "t2-14": "Muestra de tejido añadida",
+      "t3-14": "Aplicación de nutrientes registrada",
+      "t4-14": "Estrés visual reducido",
+      "t5-14": "Recuperación del dosel observada",
+      "t1-7": "Perfil de humedad elevado durante 48 horas",
+      "t2-7": "Riesgo de enfermedad elevado a medio",
+      "t1-21": "Déficit de precipitación en acumulación",
+      "t2-21": "El pronóstico de humedad cayó por debajo del objetivo",
+      "t1-3": "Dosel uniforme en toda la parcela"
+    }
+  }
+}

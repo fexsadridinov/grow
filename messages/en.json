@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "title": "FIELDOS — Agricultural Intelligence Platform",
+    "titleTemplate": "%s — FIELDOS",
+    "description": "FIELDOS is an agricultural intelligence platform designed to combine field imagery, agronomic knowledge, weather, soil, history, and outcomes into better field decisions.",
+    "privacyTitle": "Privacy",
+    "privacyDescription": "Privacy information for FIELDOS.",
+    "termsTitle": "Terms",
+    "termsDescription": "Terms of use for FIELDOS.",
+    "notFoundTitle": "Page not found"
+  },
+  "common": {
+    "skipToContent": "Skip to content",
+    "conceptual": "Conceptual product experience",
+    "conceptualOutput": "Conceptual output",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "primaryNav": "Primary navigation",
+    "mobileNav": "Mobile navigation",
+    "language": "Language",
+    "openLanguageMenu": "Open language menu",
+    "closeLanguageMenu": "Close language menu",
+    "currentLanguage": "Current language",
+    "optional": "Optional",
+    "center": "Center",
+    "navigate": "Navigate",
+    "legal": "Legal",
+    "copyright": "© {year} FIELDOS",
+    "conceptNote": "A product concept for agricultural intelligence.",
+    "hectares": "ha",
+    "highConfidence": "High confidence"
+  },
+  "nav": {
+    "system": "System",
+    "howItWorks": "How It Works",
+    "intelligence": "Intelligence",
+    "vision": "Vision",
+    "agronomists": "For Agronomists",
+    "roadmap": "Roadmap",
+    "earlyAccess": "Early Access",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  },
+  "cta": {
+    "requestAccess": "Request early access",
+    "exploreSystem": "Explore the system",
+    "partner": "Partner with us",
+    "returnHome": "Return home",
+    "submitting": "Submitting…"
+  },
+  "hero": {
+    "eyebrow": "Agricultural intelligence",
+    "headline": "The operating intelligence layer for agriculture.",
+    "body": "FIELDOS brings imagery, field history, agronomic knowledge, weather, soil, interventions, and outcomes into one system—so every field can be understood in context."
+  },
+  "fieldContext": {
+    "eyebrow": "The core problem",
+    "title": "A field is more than a picture.",
+    "p1": "Most agricultural tools look at one signal at a time. A photograph. A weather forecast. A soil report. A satellite index. A farmer’s note.",
+    "p2": "Agricultural decisions depend on how those signals relate to one another.",
+    "centerLabel": "Field context",
+    "statement": "FIELDOS is designed around the field—not the prompt.",
+    "inputs": {
+      "imagery": "Imagery",
+      "weather": "Weather",
+      "soil": "Soil",
+      "cropStage": "Crop stage",
+      "fieldHistory": "Field history",
+      "agronomy": "Agronomy",
+      "interventions": "Interventions",
+      "outcomes": "Outcomes"
+    }
+  },
+  "intelligenceLoop": {
+    "eyebrow": "The intelligence loop",
+    "title": "From observation to outcome.",
+    "body": "The system is designed as a continuous loop, not a single question and answer. Each step leaves a record the next season can use.",
+    "steps": {
+      "observe": {
+        "label": "Observe",
+        "copy": "Images, sensors, field notes, weather, soil, and remote sensing."
+      },
+      "understand": {
+        "label": "Understand",
+        "copy": "Identify symptoms, anomalies, likely causes, and missing information."
+      },
+      "decide": {
+        "label": "Decide",
+        "copy": "Compare options, risks, timing, agronomic evidence, and field context."
+      },
+      "act": {
+        "label": "Act",
+        "copy": "Turn recommendations into clear priorities and interventions."
+      },
+      "measure": {
+        "label": "Measure",
+        "copy": "Track whether field conditions improve, decline, or remain unchanged."
+      },
+      "learn": {
+        "label": "Learn",
+        "copy": "Every intervention and outcome becomes part of the field’s history."
+      }
+    }
+  },
+  "productExperience": {
+    "eyebrow": "Product experience",
+    "title": "One field. One evolving source of truth.",
+    "body": "Each field carries a persistent model: what was observed, what was recommended, what was done, and what changed afterward.",
+    "farm": "Farm",
+    "farmName": "North Block",
+    "timeline": "Field timeline",
+    "fieldHealth": "Field health",
+    "healthIndex": "Composite canopy, moisture, and stress index",
+    "status": "Status",
+    "weather": "Weather",
+    "alerts": "Alerts",
+    "latestObservation": "Latest observation",
+    "primaryConcern": "Primary concern",
+    "confidence": "Confidence",
+    "affectedArea": "Affected area",
+    "recommendedAction": "Recommended next action",
+    "mapAlt": "Conceptual map of {name} showing health and anomaly zones.",
+    "fieldHealthScore": "Field health {score} out of {max}"
+  },
+  "architectureComparison": {
+    "eyebrow": "Architecture",
+    "title": "Built around continuous intelligence, not isolated answers.",
+    "body": "A chatbot can summarize. An intelligence layer has to remember the field—what happened, what was tried, and whether it worked.",
+    "chatbot": "Chatbot",
+    "questionAnswer": "Question → Answer",
+    "limits": {
+      "resets": "Context resets.",
+      "generic": "Knowledge is generic.",
+      "noModel": "No persistent field model.",
+      "noOutcomes": "No measurement of outcomes."
+    },
+    "path": {
+      "field": "Field",
+      "history": "History",
+      "observation": "Observation",
+      "knowledge": "Knowledge",
+      "decision": "Decision",
+      "action": "Action",
+      "outcome": "Outcome",
+      "learning": "Learning"
+    }
+  },
+  "knowledge": {
+    "eyebrow": "Knowledge",
+    "title": "Agronomy should be grounded in evidence.",
+    "body": "FIELDOS is designed to consult a curated agricultural knowledge base—not to improvise from generic language alone. The sources below describe the intended architecture, not a claim that every corpus is already connected.",
+    "retrievalPriority": "Retrieval priority",
+    "quote": "The goal is not simply to generate an answer. It is to find the information that actually applies to this field.",
+    "factors": {
+      "relevance": "Relevance",
+      "sourceQuality": "Source quality",
+      "cropFit": "Crop fit",
+      "geographicFit": "Geographic fit",
+      "recency": "Recency"
+    },
+    "sources": {
+      "research": {
+        "title": "Peer-reviewed research",
+        "description": "Primary literature used to ground hypotheses in published evidence."
+      },
+      "extension": {
+        "title": "University extension",
+        "description": "Regional agronomic practice written for working farms."
+      },
+      "handbooks": {
+        "title": "Agronomic handbooks",
+        "description": "Established diagnostic and crop-management references."
+      },
+      "regional": {
+        "title": "Regional guidance",
+        "description": "Climate, soil, and regulatory context that changes by geography."
+      },
+      "expert": {
+        "title": "Expert knowledge",
+        "description": "Corrections, notes, and judgment from working agronomists."
+      },
+      "protocols": {
+        "title": "Internal farm protocols",
+        "description": "The operation’s own standards, thresholds, and treatment rules."
+      }
+    }
+  },
+  "inputs": {
+    "eyebrow": "Multimodal inputs",
+    "title": "Every signal matters more in context.",
+    "body": "Isolated measurements are noisy. Combined with crop stage, history, and local agronomy, they become evidence.",
+    "items": {
+      "photos": {
+        "label": "Photos",
+        "description": "Visual symptoms, crop condition, weeds, pests, canopy."
+      },
+      "field-data": {
+        "label": "Field data",
+        "description": "Crop, cultivar, planting date, treatments, observations."
+      },
+      "weather": {
+        "label": "Weather",
+        "description": "Rainfall, temperature, humidity, wind, evapotranspiration."
+      },
+      "soil": {
+        "label": "Soil",
+        "description": "pH, nutrients, texture, moisture, salinity."
+      },
+      "satellite": {
+        "label": "Satellite",
+        "description": "Vegetation indices and temporal anomaly detection."
+      },
+      "drones": {
+        "label": "Drones",
+        "description": "High-resolution imagery and field-scale mapping."
+      },
+      "expert": {
+        "label": "Expert input",
+        "description": "Agronomist validation and corrections."
+      },
+      "outcomes": {
+        "label": "Outcomes",
+        "description": "Yield, recovery, disease progression, intervention response."
+      }
+    }
+  },
+  "visionAnalysis": {
+    "eyebrow": "Image analysis",
+    "title": "A photograph is evidence—not the conclusion.",
+    "body": "Visual symptoms start a hypothesis. Confidence is explicit. The next step is confirmation in the field, not a finished diagnosis from a picture alone.",
+    "statement": "Observation → hypothesis → confidence → confirmation → action.",
+    "visualObservation": "Visual observation",
+    "possibleCauses": "Possible causes",
+    "confirmation": "Confirmation",
+    "olderLeaf": "Older leaf",
+    "leafAlt": "Stylized leaf showing chlorosis on older tissue.",
+    "observation": "Older-leaf chlorosis",
+    "severity": "Moderate severity",
+    "causes": {
+      "nitrogen": "Nitrogen deficiency",
+      "sulfur": "Sulfur deficiency",
+      "waterlogging": "Waterlogging"
+    },
+    "tests": {
+      "tissue": "Leaf tissue analysis",
+      "nitrate": "Soil nitrate test",
+      "canopy": "Inspect lower canopy"
+    }
+  },
+  "drone": {
+    "eyebrow": "Roadmap sensing",
+    "title": "From individual plants to entire fields.",
+    "body": "Handheld photographs are the starting resolution. The platform is being designed so drone and satellite layers can expand that view without changing the underlying field model.",
+    "pipelineLabel": "Drone pipeline",
+    "disclaimer": "Drone and remote-sensing capabilities represent the platform roadmap.",
+    "raster": "Stylized field raster",
+    "conceptualNdvi": "NDVI · Conceptual",
+    "lowVigor": "Low vigor",
+    "highVigor": "High vigor",
+    "rasterAlt": "Stylized topographic raster of a field with an anomaly zone.",
+    "steps": {
+      "flight": "Drone flight",
+      "geotagged": "Geotagged imagery",
+      "orthomosaic": "Orthomosaic",
+      "segmentation": "Field segmentation",
+      "anomaly": "Anomaly detection",
+      "samples": "Representative samples",
+      "interpretation": "Agronomic interpretation",
+      "zones": "Management zones"
+    }
+  },
+  "predictive": {
+    "eyebrow": "Anticipation",
+    "title": "Understand what is happening. Then anticipate what happens next.",
+    "body": "Predictive modules are shown here as conceptual outputs—the intended shape of the system, not validated production forecasts.",
+    "modules": {
+      "disease": {
+        "title": "Disease risk",
+        "from": "Moderate",
+        "to": "High",
+        "reason": "Persistent leaf wetness + humidity profile + crop stage"
+      },
+      "moisture": {
+        "title": "Moisture stress",
+        "from": "Stable",
+        "to": "Watch",
+        "reason": "Four-day rainfall deficit against current soil water balance"
+      },
+      "yield": {
+        "title": "Yield trajectory",
+        "value": "8.1–9.2 t/ha",
+        "reason": "Primary risk: heat stress during grain fill"
+      },
+      "anomalies": {
+        "title": "Field anomalies",
+        "value": "2 zones",
+        "reason": "Northwest canopy divergence against the five-year field baseline"
+      }
+    }
+  },
+  "outcomeLearning": {
+    "eyebrow": "The compounding layer",
+    "title": "Every decision creates new intelligence.",
+    "body": "The most valuable agricultural dataset is not just image → diagnosis. It is the closed loop of context, action, and result.",
+    "equationLabel": "Learning equation",
+    "image": "image",
+    "fieldContext": "field context",
+    "recommendation": "recommendation",
+    "intervention": "intervention",
+    "outcome": "outcome",
+    "quote": "Over time, the platform can learn not only what a field looks like—but what actually worked.",
+    "memory": "FIELDOS is being designed so every season becomes part of the system’s memory.",
+    "loop": {
+      "recommendation": "Recommendation",
+      "farmerAction": "Farmer action",
+      "fieldResponse": "Field response",
+      "outcome": "Outcome",
+      "futureDecision": "Future decision"
+    }
+  },
+  "agronomistMode": {
+    "eyebrow": "Expert review",
+    "title": "AI that works with agronomists, not around them.",
+    "body": "Model output is a draft. Agronomists confirm, correct, and add context. Those corrections are intended to improve datasets, evaluation, retrieval, and future model performance.",
+    "points": {
+      "datasets": "Datasets become more honest.",
+      "evaluation": "Evaluation tracks expert disagreement.",
+      "retrieval": "Retrieval can prefer locally corrected knowledge.",
+      "models": "Future models train against lived field judgment."
+    },
+    "panelLabel": "Expert review",
+    "aiAssessment": "AI assessment",
+    "agronomistReview": "Agronomist review",
+    "incorrect": "Incorrect diagnosis",
+    "correctClassification": "Correct classification: {label}",
+    "expertNote": "Expert note: {note}",
+    "confirm": "Confirm",
+    "correct": "Correct",
+    "addContext": "Add context",
+    "idle": "Buttons demonstrate the review workflow. No data is stored.",
+    "confirmed": "Marked as confirmed. Expert agreement would be stored on the field record.",
+    "corrected": "Correction captured. The field model would retain both the original and the expert label.",
+    "noted": "Context would be attached to this observation for later retrieval.",
+    "aiLabel": "Nitrogen deficiency",
+    "correction": "Sulfur deficiency",
+    "note": "New growth shows earlier chlorosis."
+  },
+  "geography": {
+    "eyebrow": "Place",
+    "title": "Agronomy is local.",
+    "body": "Same crop. Different region. Different soil. Different climate. Different recommendation. The system is designed so logic is filtered by place—not copied from one geography onto another.",
+    "region": "Region",
+    "crop": "Crop",
+    "soil": "Soil",
+    "climate": "Climate",
+    "filters": {
+      "region": "Region",
+      "climate": "Climate",
+      "soil": "Soil",
+      "crop": "Crop",
+      "cultivar": "Cultivar",
+      "growthStage": "Growth stage",
+      "regulation": "Regulation"
+    },
+    "regions": {
+      "ukraine": {
+        "name": "Ukraine",
+        "crop": "Winter wheat",
+        "soil": "Chernozem",
+        "climate": "Continental",
+        "note": "Nitrogen timing follows a cooler spring and a later stem-elongation window."
+      },
+      "kansas": {
+        "name": "Kansas",
+        "crop": "Winter wheat",
+        "soil": "Silt loam",
+        "climate": "Semi-arid plains",
+        "note": "Moisture scarcity can mimic nutrient stress later in grain fill."
+      },
+      "argentina": {
+        "name": "Argentina",
+        "crop": "Winter wheat",
+        "soil": "Pampas loam",
+        "climate": "Humid subtropical",
+        "note": "Disease pressure rises earlier under prolonged leaf wetness."
+      },
+      "france": {
+        "name": "France",
+        "crop": "Winter wheat",
+        "soil": "Calcareous silt",
+        "climate": "Oceanic",
+        "note": "Regulatory limits and cultivar choice constrain nitrogen strategy."
+      }
+    }
+  },
+  "knowledgeGraph": {
+    "eyebrow": "Structured knowledge",
+    "title": "From documents to connected agronomic knowledge.",
+    "body": "Search can find a page. A graph can hold the relationships agronomists actually use: symptoms, look-alikes, conditions, and crops.",
+    "graphLabel": "Agronomic knowledge graph",
+    "designedArchitecture": "Designed architecture",
+    "selectedNode": "Selected node",
+    "selectNode": "Select a node",
+    "nitrogenCopy": "Connected symptoms, soil conditions, and look-alike deficiencies that should be considered together.",
+    "septoriaCopy": "Pathogen context that depends on crop, weather, and growth stage—not a keyword match.",
+    "alt": "Network diagram connecting nitrogen deficiency and Septoria to related agronomic concepts.",
+    "nodes": {
+      "n-def": "Nitrogen deficiency",
+      "chlorosis": "Chlorosis",
+      "older-leaves": "Older leaves",
+      "low-n": "Low available N",
+      "roots": "Poor root growth",
+      "waterlog": "Waterlogging",
+      "sulfur": "Sulfur deficiency",
+      "septoria": "Septoria",
+      "wheat": "Wheat",
+      "humidity": "Humidity",
+      "rainfall": "Rainfall",
+      "lesions": "Leaf lesions",
+      "stage": "Growth stage"
+    }
+  },
+  "dashboard": {
+    "eyebrow": "Daily operations",
+    "title": "One view of what needs attention today.",
+    "body": "Priorities should surface before the agronomist has to hunt for them. This is a representative morning view, not a live operations feed.",
+    "operations": "Operations",
+    "greeting": "Good morning",
+    "fieldsMonitored": "Fields monitored",
+    "totalArea": "Total area",
+    "needAttention": "Need attention",
+    "priorityInspections": "Priority inspections",
+    "farmCondition": "Farm condition",
+    "activeRiskArea": "Estimated active risk area",
+    "status": "Status",
+    "stableOverall": "Stable overall",
+    "affected": "{area} affected"
+  },
+  "userGroups": {
+    "eyebrow": "Audience",
+    "title": "Built for decisions across the agricultural operation.",
+    "items": {
+      "agronomists": {
+        "title": "Agronomists",
+        "copy": "Diagnose, verify, compare, and document field decisions."
+      },
+      "operators": {
+        "title": "Farm operators",
+        "copy": "See priorities across every field."
+      },
+      "companies": {
+        "title": "Agricultural companies",
+        "copy": "Standardize field intelligence across large operations."
+      },
+      "researchers": {
+        "title": "Researchers & partners",
+        "copy": "Connect agronomic science with real field outcomes."
+      }
+    }
+  },
+  "roadmap": {
+    "eyebrow": "Product roadmap",
+    "title": "Build intelligence in layers.",
+    "body": "Capabilities are sequenced on purpose. Items listed under Next and Later are not presented as currently available.",
+    "now": {
+      "label": "Now",
+      "caption": "Foundation of field-centered intelligence.",
+      "items": {
+        "profiles": "Field profiles",
+        "seasons": "Crop seasons",
+        "images": "Image observations",
+        "agronomy": "Agronomy knowledge",
+        "analysis": "Contextual AI analysis",
+        "recommendations": "Recommendations",
+        "review": "Expert review"
+      }
+    },
+    "next": {
+      "label": "Next",
+      "caption": "Broader environmental and remote context.",
+      "items": {
+        "weather": "Weather intelligence",
+        "soil": "Soil integration",
+        "satellite": "Satellite monitoring",
+        "anomaly": "Anomaly detection",
+        "timeline": "Field health timeline"
+      }
+    },
+    "later": {
+      "label": "Later",
+      "caption": "Field-scale sensing and operational systems.",
+      "items": {
+        "drones": "Drone ingestion",
+        "orthomosaics": "Orthomosaics",
+        "zones": "Management zones",
+        "prescriptions": "Prescription maps",
+        "predictive": "Predictive agronomy",
+        "machines": "Machine integration"
+      }
+    }
+  },
+  "vision": {
+    "eyebrow": "Vision",
+    "title": "The farm should become more intelligent every season.",
+    "history": "Every field has a history.",
+    "intervention": "Every intervention creates an outcome.",
+    "evidence": "Every season adds evidence.",
+    "body": "FIELDOS is being designed to turn that accumulated knowledge into better decisions—field by field, season by season."
+  },
+  "finalCta": {
+    "eyebrow": "Early access",
+    "title": "Help build the intelligence layer for agriculture.",
+    "body": "We are looking for agronomists, growers, researchers, and agricultural partners who want to shape the platform from the beginning.",
+    "inquiries": "Partnership inquiries: {email}"
+  },
+  "forms": {
+    "name": "Name",
+    "email": "Email",
+    "organization": "Organization",
+    "role": "Role",
+    "country": "Country",
+    "intent": "What would you want FIELDOS to solve first?",
+    "success": "Thank you. We will be in touch as the early-access list opens.",
+    "errors": {
+      "name": "Please enter your name.",
+      "email": "Please enter a valid email address.",
+      "organization": "Please enter your organization.",
+      "role": "Please select a role.",
+      "generic": "Unable to submit right now. Please try again."
+    },
+    "roles": {
+      "farmer": "Farmer",
+      "agronomist": "Agronomist",
+      "researcher": "Researcher",
+      "agCompany": "Agricultural company",
+      "investor": "Investor",
+      "technologyPartner": "Technology partner",
+      "other": "Other"
+    }
+  },
+  "footer": {
+    "supportingLine": "Agricultural intelligence, built around the field."
+  },
+  "legalPages": {
+    "privacyTitle": "Privacy",
+    "privacyP1": "This page is a placeholder. FIELDOS is a product-concept website. A full privacy policy will be published before any production data collection begins.",
+    "privacyP2": "The early-access form currently stores nothing beyond a server log of the submitted fields. Contact {email} with questions.",
+    "termsTitle": "Terms",
+    "termsP1": "This page is a placeholder. Product visualizations on this site are conceptual representations of FIELDOS, not a live production system and not a commercial offer.",
+    "termsP2": "Formal terms of use will be issued before any paid or operational deployment. Contact {email} for partnership discussions."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "That route is not part of the FIELDOS site."
+  },
+  "fields": {
+    "intelligence": "Field intelligence",
+    "crops": {
+      "winterWheat": "Winter wheat",
+      "sunflower": "Sunflower"
+    },
+    "weather": {
+      "overcast": "Overcast",
+      "humid": "Humid",
+      "dry": "Dry",
+      "clear": "Clear"
+    },
+    "severity": {
+      "high": "High",
+      "moderate": "Moderate",
+      "low": "Low"
+    },
+    "priority": {
+      "high": "High priority",
+      "medium": "Medium",
+      "low": "Low"
+    },
+    "status": {
+      "stable": "Stable",
+      "attention": "Attention",
+      "watch": "Watch"
+    },
+    "farmCondition": {
+      "stable": "Stable"
+    },
+    "soilMoistureStable": "Soil moisture stable",
+    "zones": {
+      "zone-healthy": "Uniform canopy",
+      "zone-watch": "Canopy thinning",
+      "zone-stress": "Nitrogen stress",
+      "zone-stable": "Soil moisture stable"
+    },
+    "items": {
+      "field-14": {
+        "name": "North 14",
+        "code": "FIELD 14",
+        "primaryConcern": "Possible nitrogen stress",
+        "recommendedAction": "Inspect five locations across the affected zone and verify with tissue testing."
+      },
+      "field-7": {
+        "name": "East 7",
+        "code": "FIELD 7",
+        "primaryConcern": "Fungal disease risk increasing"
+      },
+      "field-21": {
+        "name": "South 21",
+        "code": "FIELD 21",
+        "primaryConcern": "Soil moisture forecast below target within 4 days"
+      },
+      "field-3": {
+        "name": "West 3",
+        "code": "FIELD 3"
+      }
+    },
+    "risks": {
+      "n-stress": "Nitrogen stress",
+      "disease": "Disease risk",
+      "fungal": "Fungal disease risk",
+      "moisture": "Soil moisture declining"
+    },
+    "timeline": {
+      "t1-14": "Possible nitrogen stress detected",
+      "t2-14": "Tissue sample added",
+      "t3-14": "Nutrient application recorded",
+      "t4-14": "Visual stress reduced",
+      "t5-14": "Canopy recovery observed",
+      "t1-7": "Humidity profile elevated for 48 hours",
+      "t2-7": "Disease risk raised to medium",
+      "t1-21": "Rainfall deficit accumulating",
+      "t2-21": "Moisture forecast dropped below target",
+      "t1-3": "Canopy uniform across the field"
+    }
+  }
+}

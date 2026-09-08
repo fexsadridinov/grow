@@ -1,0 +1,634 @@
+{
+  "metadata": {
+    "title": "FIELDOS — Intelligenzplattform für die Landwirtschaft",
+    "titleTemplate": "%s — FIELDOS",
+    "description": "FIELDOS ist eine Intelligenzplattform für die Landwirtschaft. Sie führt Bilddaten, agronomisches Wissen, Wetter, Boden, Historie und Ergebnisse zu belastbareren Schlagentscheidungen zusammen.",
+    "privacyTitle": "Datenschutz",
+    "privacyDescription": "Datenschutzinformationen zu FIELDOS.",
+    "termsTitle": "Nutzungsbedingungen",
+    "termsDescription": "Nutzungsbedingungen für FIELDOS.",
+    "notFoundTitle": "Seite nicht gefunden"
+  },
+  "common": {
+    "skipToContent": "Zum Inhalt springen",
+    "conceptual": "Konzeptionelle Produkterfahrung",
+    "conceptualOutput": "Konzeptionelle Ausgabe",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "primaryNav": "Hauptnavigation",
+    "mobileNav": "Mobile Navigation",
+    "language": "Sprache",
+    "openLanguageMenu": "Sprachmenü öffnen",
+    "closeLanguageMenu": "Sprachmenü schließen",
+    "currentLanguage": "Aktuelle Sprache",
+    "optional": "Optional",
+    "center": "Zentrieren",
+    "navigate": "Navigation",
+    "legal": "Rechtliches",
+    "copyright": "© {year} FIELDOS",
+    "conceptNote": "Ein Produktkonzept für Intelligenz in der Landwirtschaft.",
+    "hectares": "ha",
+    "highConfidence": "Hohe Konfidenz"
+  },
+  "nav": {
+    "system": "System",
+    "howItWorks": "Funktionsweise",
+    "intelligence": "Intelligenz",
+    "vision": "Vision",
+    "agronomists": "Für Agronomen",
+    "roadmap": "Roadmap",
+    "earlyAccess": "Frühzugang",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen"
+  },
+  "cta": {
+    "requestAccess": "Frühzugang anfragen",
+    "exploreSystem": "Das System erkunden",
+    "partner": "Partner werden",
+    "returnHome": "Zur Startseite",
+    "submitting": "Wird gesendet…"
+  },
+  "hero": {
+    "eyebrow": "Intelligenz für die Landwirtschaft",
+    "headline": "Operative Intelligenz für die Landwirtschaft.",
+    "body": "FIELDOS führt Bilddaten, Schlaghistorie, agronomisches Wissen, Wetter, Boden, Maßnahmen und Ergebnisse in einem System zusammen – damit jeder Schlag im Kontext verstanden werden kann."
+  },
+  "fieldContext": {
+    "eyebrow": "Das Kernproblem",
+    "title": "Ein Schlag ist mehr als ein Bild.",
+    "p1": "Die meisten Agrarwerkzeuge betrachten jeweils nur ein Signal. Ein Foto. Eine Wetterprognose. Einen Bodenbericht. Einen Satellitenindex. Eine Notiz des Landwirts.",
+    "p2": "Landwirtschaftliche Entscheidungen hängen davon ab, wie diese Signale zusammenhängen.",
+    "centerLabel": "Schlagkontext",
+    "statement": "FIELDOS ist auf den Schlag ausgerichtet – nicht auf den Prompt.",
+    "inputs": {
+      "imagery": "Bilddaten",
+      "weather": "Wetter",
+      "soil": "Boden",
+      "cropStage": "Entwicklungsstadium",
+      "fieldHistory": "Schlaghistorie",
+      "agronomy": "Agronomie",
+      "interventions": "Maßnahmen",
+      "outcomes": "Ergebnisse"
+    }
+  },
+  "intelligenceLoop": {
+    "eyebrow": "Der Intelligenzzyklus",
+    "title": "Von der Beobachtung zum Ergebnis.",
+    "body": "Das System ist als fortlaufender Zyklus angelegt, nicht als einzelne Frage und Antwort. Jeder Schritt hinterlässt einen Eintrag, den die nächste Saison nutzen kann.",
+    "steps": {
+      "observe": {
+        "label": "Beobachten",
+        "copy": "Bilder, Sensoren, Schlagnotizen, Wetter, Boden und Fernerkundung."
+      },
+      "understand": {
+        "label": "Verstehen",
+        "copy": "Symptome, Anomalien, wahrscheinliche Ursachen und fehlende Informationen erkennen."
+      },
+      "decide": {
+        "label": "Entscheiden",
+        "copy": "Optionen, Risiken, Zeitpunkt, agronomische Evidenz und Schlagkontext abwägen."
+      },
+      "act": {
+        "label": "Handeln",
+        "copy": "Empfehlungen in klare Prioritäten und Maßnahmen überführen."
+      },
+      "measure": {
+        "label": "Messen",
+        "copy": "Erfassen, ob sich die Schlagbedingungen verbessern, verschlechtern oder unverändert bleiben."
+      },
+      "learn": {
+        "label": "Lernen",
+        "copy": "Jede Maßnahme und jedes Ergebnis wird Teil der Schlaghistorie."
+      }
+    }
+  },
+  "productExperience": {
+    "eyebrow": "Produkterfahrung",
+    "title": "Ein Schlag. Eine fortlaufende Quelle der Wahrheit.",
+    "body": "Jeder Schlag trägt ein dauerhaftes Modell: was beobachtet, empfohlen und umgesetzt wurde – und was sich danach verändert hat.",
+    "farm": "Betrieb",
+    "farmName": "Nordblock",
+    "timeline": "Schlagverlauf",
+    "fieldHealth": "Schlaggesundheit",
+    "healthIndex": "Zusammengesetzter Index aus Bestand, Feuchte und Stress",
+    "status": "Status",
+    "weather": "Wetter",
+    "alerts": "Hinweise",
+    "latestObservation": "Letzte Beobachtung",
+    "primaryConcern": "Hauptbefund",
+    "confidence": "Konfidenz",
+    "affectedArea": "Betroffene Fläche",
+    "recommendedAction": "Empfohlene nächste Maßnahme",
+    "mapAlt": "Konzeptionelle Karte von {name} mit Gesundheits- und Anomaliezonen.",
+    "fieldHealthScore": "Schlaggesundheit {score} von {max}"
+  },
+  "architectureComparison": {
+    "eyebrow": "Architektur",
+    "title": "Gebaut für kontinuierliche Intelligenz, nicht für isolierte Antworten.",
+    "body": "Ein Chatbot kann zusammenfassen. Eine Intelligenzschicht muss den Schlag im Gedächtnis behalten – was geschehen ist, was versucht wurde und ob es gewirkt hat.",
+    "chatbot": "Chatbot",
+    "questionAnswer": "Frage → Antwort",
+    "limits": {
+      "resets": "Der Kontext geht verloren.",
+      "generic": "Das Wissen ist allgemein.",
+      "noModel": "Kein dauerhaftes Schlagmodell.",
+      "noOutcomes": "Keine Messung der Ergebnisse."
+    },
+    "path": {
+      "field": "Schlag",
+      "history": "Historie",
+      "observation": "Beobachtung",
+      "knowledge": "Wissen",
+      "decision": "Entscheidung",
+      "action": "Maßnahme",
+      "outcome": "Ergebnis",
+      "learning": "Lernen"
+    }
+  },
+  "knowledge": {
+    "eyebrow": "Wissen",
+    "title": "Agronomie muss auf Evidenz beruhen.",
+    "body": "FIELDOS ist darauf ausgelegt, eine kuratierte agronomische Wissensbasis heranzuziehen – nicht allein aus allgemeiner Sprache zu improvisieren. Die folgenden Quellen beschreiben die vorgesehene Architektur, nicht den Anspruch, dass jeder Korpus bereits angebunden ist.",
+    "retrievalPriority": "Abrufpriorität",
+    "quote": "Das Ziel ist nicht, einfach eine Antwort zu erzeugen. Es geht darum, die Information zu finden, die für diesen Schlag tatsächlich gilt.",
+    "factors": {
+      "relevance": "Relevanz",
+      "sourceQuality": "Quellenqualität",
+      "cropFit": "Passung zur Kultur",
+      "geographicFit": "Geografische Passung",
+      "recency": "Aktualität"
+    },
+    "sources": {
+      "research": {
+        "title": "Begutachtete Forschung",
+        "description": "Primärliteratur, um Hypothesen an publizierter Evidenz festzumachen."
+      },
+      "extension": {
+        "title": "Universitäre Beratung",
+        "description": "Regionale agronomische Praxis für den laufenden Betrieb."
+      },
+      "handbooks": {
+        "title": "Agronomische Handbücher",
+        "description": "Etablierte Referenzen zu Diagnose und Kulturführung."
+      },
+      "regional": {
+        "title": "Regionale Leitlinien",
+        "description": "Klima, Boden und regulatorischer Rahmen, die sich nach der Geografie unterscheiden."
+      },
+      "expert": {
+        "title": "Expertenwissen",
+        "description": "Korrekturen, Hinweise und Urteil praktizierender Agronomen."
+      },
+      "protocols": {
+        "title": "Interne Betriebsprotokolle",
+        "description": "Eigene Standards, Schwellenwerte und Behandlungsregeln des Betriebs."
+      }
+    }
+  },
+  "inputs": {
+    "eyebrow": "Multimodale Eingaben",
+    "title": "Jedes Signal wiegt mehr im Kontext.",
+    "body": "Isolierte Messwerte sind verrauscht. Verbunden mit Entwicklungsstadium, Historie und lokaler Agronomie werden sie zu Evidenz.",
+    "items": {
+      "photos": {
+        "label": "Fotos",
+        "description": "Visuelle Symptome, Kulturzustand, Unkraut, Schädlinge, Bestand."
+      },
+      "field-data": {
+        "label": "Schlagdaten",
+        "description": "Kultur, Sorte, Saattermin, Behandlungen, Beobachtungen."
+      },
+      "weather": {
+        "label": "Wetter",
+        "description": "Niederschlag, Temperatur, Luftfeuchte, Wind, Evapotranspiration."
+      },
+      "soil": {
+        "label": "Boden",
+        "description": "pH, Nährstoffe, Textur, Feuchte, Salzgehalt."
+      },
+      "satellite": {
+        "label": "Satellit",
+        "description": "Vegetationsindizes und zeitliche Anomalieerkennung."
+      },
+      "drones": {
+        "label": "Drohnen",
+        "description": "Hochauflösende Bilddaten und Kartierung auf Schlagebene."
+      },
+      "expert": {
+        "label": "Expertenbeitrag",
+        "description": "Validierung und Korrekturen durch Agronomen."
+      },
+      "outcomes": {
+        "label": "Ergebnisse",
+        "description": "Ertrag, Erholung, Krankheitsverlauf, Wirkung der Maßnahme."
+      }
+    }
+  },
+  "visionAnalysis": {
+    "eyebrow": "Bildanalyse",
+    "title": "Ein Foto ist Evidenz – nicht die Schlussfolgerung.",
+    "body": "Visuelle Symptome eröffnen eine Hypothese. Die Konfidenz bleibt ausdrücklich. Der nächste Schritt ist die Bestätigung im Bestand, keine fertige Diagnose allein aus dem Bild.",
+    "statement": "Beobachtung → Hypothese → Konfidenz → Bestätigung → Maßnahme.",
+    "visualObservation": "Visuelle Beobachtung",
+    "possibleCauses": "Mögliche Ursachen",
+    "confirmation": "Bestätigung",
+    "olderLeaf": "Älteres Blatt",
+    "leafAlt": "Stilisiertes Blatt mit Chlorose am älteren Gewebe.",
+    "observation": "Chlorose an älteren Blättern",
+    "severity": "Mittlere Ausprägung",
+    "causes": {
+      "nitrogen": "Stickstoffmangel",
+      "sulfur": "Schwefelmangel",
+      "waterlogging": "Staunässe"
+    },
+    "tests": {
+      "tissue": "Blattgewebeanalyse",
+      "nitrate": "Bodennitrattest",
+      "canopy": "Unteren Bestand prüfen"
+    }
+  },
+  "drone": {
+    "eyebrow": "Sensorik auf der Roadmap",
+    "title": "Von einzelnen Pflanzen zu ganzen Schlägen.",
+    "body": "Handfotos sind die Ausgangsauflösung. Die Plattform wird so angelegt, dass Drohnen- und Satellitenebenen diese Sicht erweitern, ohne das zugrunde liegende Schlagmodell zu ändern.",
+    "pipelineLabel": "Drohnenpipeline",
+    "disclaimer": "Drohnen- und Fernerkundungsfähigkeiten gehören zur Produktroadmap.",
+    "raster": "Stilisiertes Schlagraster",
+    "conceptualNdvi": "NDVI · Konzeptuell",
+    "lowVigor": "Geringe Vitalität",
+    "highVigor": "Hohe Vitalität",
+    "rasterAlt": "Stilisiertes topografisches Raster eines Schlags mit Anomaliezone.",
+    "steps": {
+      "flight": "Drohnenflug",
+      "geotagged": "Georeferenzierte Bilddaten",
+      "orthomosaic": "Orthomosaik",
+      "segmentation": "Schlagsegmentierung",
+      "anomaly": "Anomalieerkennung",
+      "samples": "Repräsentative Proben",
+      "interpretation": "Agronomische Interpretation",
+      "zones": "Bewirtschaftungszonen"
+    }
+  },
+  "predictive": {
+    "eyebrow": "Antizipation",
+    "title": "Verstehen, was geschieht. Dann vorwegnehmen, was folgt.",
+    "body": "Prognosemodule erscheinen hier als konzeptionelle Ausgaben – die vorgesehene Form des Systems, keine validierten Produktionsprognosen.",
+    "modules": {
+      "disease": {
+        "title": "Krankheitsrisiko",
+        "from": "Mittel",
+        "to": "Hoch",
+        "reason": "Anhaltende Blattnässe + Feuchteprofil + Entwicklungsstadium"
+      },
+      "moisture": {
+        "title": "Feuchtestress",
+        "from": "Stabil",
+        "to": "Beobachten",
+        "reason": "Viertägiges Niederschlagsdefizit gegenüber der aktuellen Bodenwasserbilanz"
+      },
+      "yield": {
+        "title": "Ertragsverlauf",
+        "value": "8,1–9,2 t/ha",
+        "reason": "Hauptrisiko: Hitzestress während der Kornfüllung"
+      },
+      "anomalies": {
+        "title": "Schaganomalien",
+        "value": "2 Zonen",
+        "reason": "Abweichung des Bestands im Nordwesten gegenüber der fünfjährigen Schlagbasis"
+      }
+    }
+  },
+  "outcomeLearning": {
+    "eyebrow": "Die kumulative Ebene",
+    "title": "Jede Entscheidung erzeugt neue Intelligenz.",
+    "body": "Der wertvollste agrarische Datensatz ist nicht nur Bild → Diagnose. Es ist der geschlossene Kreis aus Kontext, Maßnahme und Ergebnis.",
+    "equationLabel": "Lerngleichung",
+    "image": "Bild",
+    "fieldContext": "Schlagkontext",
+    "recommendation": "Empfehlung",
+    "intervention": "Maßnahme",
+    "outcome": "Ergebnis",
+    "quote": "Mit der Zeit kann die Plattform nicht nur lernen, wie ein Schlag aussieht – sondern was tatsächlich gewirkt hat.",
+    "memory": "FIELDOS wird so konzipiert, dass jede Saison Teil des Systemgedächtnisses wird.",
+    "loop": {
+      "recommendation": "Empfehlung",
+      "farmerAction": "Maßnahme des Betriebs",
+      "fieldResponse": "Reaktion des Schlags",
+      "outcome": "Ergebnis",
+      "futureDecision": "Künftige Entscheidung"
+    }
+  },
+  "agronomistMode": {
+    "eyebrow": "Expertenprüfung",
+    "title": "KI, die mit Agronomen arbeitet, nicht an ihnen vorbei.",
+    "body": "Die Modellausgabe ist ein Entwurf. Agronomen bestätigen, korrigieren und ergänzen den Kontext. Diese Korrekturen sollen Datensätze, Evaluation, Abruf und künftige Modellleistung verbessern.",
+    "points": {
+      "datasets": "Datensätze werden belastbarer.",
+      "evaluation": "Die Evaluation erfasst abweichende Expertenurteile.",
+      "retrieval": "Der Abruf kann lokal korrigiertes Wissen bevorzugen.",
+      "models": "Künftige Modelle trainieren an gelebtem Schlagurteil."
+    },
+    "panelLabel": "Expertenprüfung",
+    "aiAssessment": "KI-Bewertung",
+    "agronomistReview": "Prüfung durch Agronomen",
+    "incorrect": "Falsche Diagnose",
+    "correctClassification": "Korrekte Klassifikation: {label}",
+    "expertNote": "Expertenhinweis: {note}",
+    "confirm": "Bestätigen",
+    "correct": "Korrigieren",
+    "addContext": "Kontext ergänzen",
+    "idle": "Die Schaltflächen zeigen den Prüfablauf. Es werden keine Daten gespeichert.",
+    "confirmed": "Als bestätigt markiert. Die Expertenübereinstimmung würde in der Schlagakte gespeichert.",
+    "corrected": "Korrektur erfasst. Das Schlagmodell würde Original- und Expertenlabel behalten.",
+    "noted": "Der Kontext würde dieser Beobachtung für späteren Abruf zugeordnet.",
+    "aiLabel": "Stickstoffmangel",
+    "correction": "Schwefelmangel",
+    "note": "Neues Wachstum zeigt früher Chlorose."
+  },
+  "geography": {
+    "eyebrow": "Ort",
+    "title": "Agronomie ist lokal.",
+    "body": "Dieselbe Kultur. Andere Region. Anderer Boden. Anderes Klima. Andere Empfehlung. Das System filtert die Logik nach dem Ort – sie wird nicht von einer Geografie auf eine andere übertragen.",
+    "region": "Region",
+    "crop": "Kultur",
+    "soil": "Boden",
+    "climate": "Klima",
+    "filters": {
+      "region": "Region",
+      "climate": "Klima",
+      "soil": "Boden",
+      "crop": "Kultur",
+      "cultivar": "Sorte",
+      "growthStage": "Entwicklungsstadium",
+      "regulation": "Regulierung"
+    },
+    "regions": {
+      "ukraine": {
+        "name": "Ukraine",
+        "crop": "Winterweizen",
+        "soil": "Tschernosem",
+        "climate": "Kontinental",
+        "note": "Die Stickstoffgabe folgt einem kühleren Frühjahr und einem späteren Fenster der Schoßphase."
+      },
+      "kansas": {
+        "name": "Kansas",
+        "crop": "Winterweizen",
+        "soil": "Schlufflehm",
+        "climate": "Semiaride Ebenen",
+        "note": "Feuchtemangel kann in der späteren Kornfüllung Nährstoffstress vortäuschen."
+      },
+      "argentina": {
+        "name": "Argentinien",
+        "crop": "Winterweizen",
+        "soil": "Pampa-Lehm",
+        "climate": "Feuchtsubtropisch",
+        "note": "Der Krankheitsdruck steigt früher bei anhaltender Blattnässe."
+      },
+      "france": {
+        "name": "Frankreich",
+        "crop": "Winterweizen",
+        "soil": "Kalkschluff",
+        "climate": "Ozeanisch",
+        "note": "Regulatorische Grenzen und Sortenwahl schränken die Stickstoffstrategie ein."
+      }
+    }
+  },
+  "knowledgeGraph": {
+    "eyebrow": "Strukturiertes Wissen",
+    "title": "Von Dokumenten zu vernetztem agronomischem Wissen.",
+    "body": "Eine Suche findet eine Seite. Ein Graph hält die Beziehungen, mit denen Agronomen tatsächlich arbeiten: Symptome, Verwechslungen, Bedingungen und Kulturen.",
+    "graphLabel": "Agronomischer Wissensgraph",
+    "designedArchitecture": "Vorgesehene Architektur",
+    "selectedNode": "Ausgewählter Knoten",
+    "selectNode": "Knoten auswählen",
+    "nitrogenCopy": "Verbundene Symptome, Bodenbedingungen und verwechslungsfähige Mängel, die gemeinsam betrachtet werden sollten.",
+    "septoriaCopy": "Pathogenkontext, der von Kultur, Wetter und Entwicklungsstadium abhängt – kein bloßer Schlüsselworttreffer.",
+    "alt": "Netzwerkdiagramm, das Stickstoffmangel und Septoria mit verwandten agronomischen Konzepten verbindet.",
+    "nodes": {
+      "n-def": "Stickstoffmangel",
+      "chlorosis": "Chlorose",
+      "older-leaves": "Ältere Blätter",
+      "low-n": "Niedrig verfügbares N",
+      "roots": "Schwaches Wurzelwachstum",
+      "waterlog": "Staunässe",
+      "sulfur": "Schwefelmangel",
+      "septoria": "Septoria",
+      "wheat": "Weizen",
+      "humidity": "Luftfeuchte",
+      "rainfall": "Niederschlag",
+      "lesions": "Blattläsionen",
+      "stage": "Entwicklungsstadium"
+    }
+  },
+  "dashboard": {
+    "eyebrow": "Täglicher Betrieb",
+    "title": "Eine Sicht auf das, was heute Aufmerksamkeit braucht.",
+    "body": "Prioritäten sollen sichtbar werden, bevor der Agronom danach suchen muss. Dies ist eine repräsentative Morgenansicht, kein Live-Betriebsfeed.",
+    "operations": "Betrieb",
+    "greeting": "Guten Morgen",
+    "fieldsMonitored": "Überwachte Schläge",
+    "totalArea": "Gesamtfläche",
+    "needAttention": "Handlungsbedarf",
+    "priorityInspections": "Vorrangige Kontrollen",
+    "farmCondition": "Betriebszustand",
+    "activeRiskArea": "Geschätzte aktive Risikofläche",
+    "status": "Status",
+    "stableOverall": "Insgesamt stabil",
+    "affected": "{area} betroffen"
+  },
+  "userGroups": {
+    "eyebrow": "Zielgruppen",
+    "title": "Gebaut für Entscheidungen im gesamten landwirtschaftlichen Betrieb.",
+    "items": {
+      "agronomists": {
+        "title": "Agronomen",
+        "copy": "Diagnostizieren, prüfen, vergleichen und Schlagentscheidungen dokumentieren."
+      },
+      "operators": {
+        "title": "Betriebsleiter",
+        "copy": "Prioritäten über alle Schläge hinweg sehen."
+      },
+      "companies": {
+        "title": "Agrarunternehmen",
+        "copy": "Schlagintelligenz über große Betriebe hinweg vereinheitlichen."
+      },
+      "researchers": {
+        "title": "Forschung und Partner",
+        "copy": "Agronomische Wissenschaft mit realen Schlagergebnissen verbinden."
+      }
+    }
+  },
+  "roadmap": {
+    "eyebrow": "Produktroadmap",
+    "title": "Intelligenz schichtweise aufbauen.",
+    "body": "Die Fähigkeiten sind bewusst gestaffelt. Punkte unter Als Nächstes und Später gelten nicht als bereits verfügbar.",
+    "now": {
+      "label": "Jetzt",
+      "caption": "Grundlage schlagzentrierter Intelligenz.",
+      "items": {
+        "profiles": "Schlagprofile",
+        "seasons": "Kultursaisons",
+        "images": "Bildbeobachtungen",
+        "agronomy": "Agronomisches Wissen",
+        "analysis": "Kontextuelle KI-Analyse",
+        "recommendations": "Empfehlungen",
+        "review": "Expertenprüfung"
+      }
+    },
+    "next": {
+      "label": "Als Nächstes",
+      "caption": "Breiterer Umwelt- und Fernerkundungskontext.",
+      "items": {
+        "weather": "Wetterintelligenz",
+        "soil": "Bodenintegration",
+        "satellite": "Satellitenüberwachung",
+        "anomaly": "Anomalieerkennung",
+        "timeline": "Verlauf der Schlaggesundheit"
+      }
+    },
+    "later": {
+      "label": "Später",
+      "caption": "Sensorik auf Schlagebene und Betriebssysteme.",
+      "items": {
+        "drones": "Drohnenerfassung",
+        "orthomosaics": "Orthomosaike",
+        "zones": "Bewirtschaftungszonen",
+        "prescriptions": "Applikationskarten",
+        "predictive": "Prognostische Agronomie",
+        "machines": "Maschinenanbindung"
+      }
+    }
+  },
+  "vision": {
+    "eyebrow": "Vision",
+    "title": "Der Betrieb soll mit jeder Saison intelligenter werden.",
+    "history": "Jeder Schlag hat eine Historie.",
+    "intervention": "Jede Maßnahme erzeugt ein Ergebnis.",
+    "evidence": "Jede Saison fügt Evidenz hinzu.",
+    "body": "FIELDOS wird so konzipiert, dass dieses angesammelte Wissen zu besseren Entscheidungen führt – Schlag für Schlag, Saison für Saison."
+  },
+  "finalCta": {
+    "eyebrow": "Frühzugang",
+    "title": "Die Intelligenzschicht für die Landwirtschaft mitgestalten.",
+    "body": "Wir suchen Agronomen, Betriebsleiter, Forscher und landwirtschaftliche Partner, die die Plattform von Beginn an mitprägen wollen.",
+    "inquiries": "Partnerschaftsanfragen: {email}"
+  },
+  "forms": {
+    "name": "Name",
+    "email": "E-Mail",
+    "organization": "Organisation",
+    "role": "Funktion",
+    "country": "Land",
+    "intent": "Was soll FIELDOS zuerst lösen?",
+    "success": "Danke. Wir melden uns, sobald die Liste für den Frühzugang geöffnet wird.",
+    "errors": {
+      "name": "Bitte geben Sie Ihren Namen ein.",
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+      "organization": "Bitte geben Sie Ihre Organisation ein.",
+      "role": "Bitte wählen Sie eine Funktion.",
+      "generic": "Senden derzeit nicht möglich. Bitte versuchen Sie es erneut."
+    },
+    "roles": {
+      "farmer": "Landwirt",
+      "agronomist": "Agronom",
+      "researcher": "Forscher",
+      "agCompany": "Agrarunternehmen",
+      "investor": "Investor",
+      "technologyPartner": "Technologiepartner",
+      "other": "Sonstiges"
+    }
+  },
+  "footer": {
+    "supportingLine": "Intelligenz für die Landwirtschaft, ausgerichtet auf den Schlag."
+  },
+  "legalPages": {
+    "privacyTitle": "Datenschutz",
+    "privacyP1": "Diese Seite ist ein Platzhalter. FIELDOS ist eine Website zum Produktkonzept. Eine vollständige Datenschutzerklärung wird veröffentlicht, bevor Produktionsdaten erhoben werden.",
+    "privacyP2": "Das Formular für den Frühzugang speichert derzeit nichts außer einem Serverprotokoll der übermittelten Felder. Fragen an {email}.",
+    "termsTitle": "Nutzungsbedingungen",
+    "termsP1": "Diese Seite ist ein Platzhalter. Die Produktdarstellungen auf dieser Website sind konzeptionelle Abbildungen von FIELDOS, kein laufendes Produktionssystem und kein kommerzielles Angebot.",
+    "termsP2": "Formelle Nutzungsbedingungen werden vor jedem entgeltlichen oder operativen Einsatz veröffentlicht. Für Partnerschaftsgespräche: {email}."
+  },
+  "notFound": {
+    "title": "Seite nicht gefunden",
+    "body": "Diese Route gehört nicht zur FIELDOS-Website."
+  },
+  "fields": {
+    "intelligence": "Schlagintelligenz",
+    "crops": {
+      "winterWheat": "Winterweizen",
+      "sunflower": "Sonnenblume"
+    },
+    "weather": {
+      "overcast": "Bedeckt",
+      "humid": "Feucht",
+      "dry": "Trocken",
+      "clear": "Klar"
+    },
+    "severity": {
+      "high": "Hoch",
+      "moderate": "Mittel",
+      "low": "Niedrig"
+    },
+    "priority": {
+      "high": "Hohe Priorität",
+      "medium": "Mittel",
+      "low": "Niedrig"
+    },
+    "status": {
+      "stable": "Stabil",
+      "attention": "Achtung",
+      "watch": "Beobachten"
+    },
+    "farmCondition": {
+      "stable": "Stabil"
+    },
+    "soilMoistureStable": "Bodenfeuchte stabil",
+    "zones": {
+      "zone-healthy": "Gleichmäßiger Bestand",
+      "zone-watch": "Bestand lichtet sich",
+      "zone-stress": "Stickstoffstress",
+      "zone-stable": "Bodenfeuchte stabil"
+    },
+    "items": {
+      "field-14": {
+        "name": "Nord 14",
+        "code": "FIELD 14",
+        "primaryConcern": "Möglicher Stickstoffstress",
+        "recommendedAction": "Fünf Stellen in der betroffenen Zone prüfen und per Gewebeanalyse bestätigen."
+      },
+      "field-7": {
+        "name": "Ost 7",
+        "code": "FIELD 7",
+        "primaryConcern": "Steigendes Risiko für Pilzkrankheiten"
+      },
+      "field-21": {
+        "name": "Süd 21",
+        "code": "FIELD 21",
+        "primaryConcern": "Prognostizierte Bodenfeuchte in 4 Tagen unter Ziel"
+      },
+      "field-3": {
+        "name": "West 3",
+        "code": "FIELD 3"
+      }
+    },
+    "risks": {
+      "n-stress": "Stickstoffstress",
+      "disease": "Krankheitsrisiko",
+      "fungal": "Risiko für Pilzkrankheiten",
+      "moisture": "Bodenfeuchte sinkt"
+    },
+    "timeline": {
+      "t1-14": "Möglicher Stickstoffstress erkannt",
+      "t2-14": "Gewebeprobe hinzugefügt",
+      "t3-14": "Nährstoffgabe erfasst",
+      "t4-14": "Visueller Stress verringert",
+      "t5-14": "Bestandserholung beobachtet",
+      "t1-7": "Feuchteprofil 48 Stunden erhöht",
+      "t2-7": "Krankheitsrisiko auf mittel angehoben",
+      "t1-21": "Niederschlagsdefizit baut sich auf",
+      "t2-21": "Feuchteprognose unter Ziel gefallen",
+      "t1-3": "Bestand über den Schlag hinweg gleichmäßig"
+    }
+  }
+}
