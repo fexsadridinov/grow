@@ -12,6 +12,10 @@ import { Link } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 const XL_BREAKPOINT = 1280;
+const easePremium = [0.22, 1, 0.36, 1] as const;
+const OPEN_DURATION = 0.28;
+const CLOSE_DURATION = 0.22;
+const ICON_DURATION = 0.2;
 
 function lockPageScroll() {
   const scrollY = window.scrollY;
@@ -131,7 +135,24 @@ export function Navbar() {
           aria-controls="mobile-nav"
           onClick={() => setOpen((value) => !value)}
         >
-          {open ? <X size={18} /> : <Menu size={18} />}
+          <span className="relative inline-flex h-[18px] w-[18px]" aria-hidden="true">
+            <motion.span
+              className="absolute inset-0 inline-flex"
+              initial={false}
+              animate={{ opacity: open ? 0 : 1 }}
+              transition={{ duration: reduce ? 0 : ICON_DURATION, ease: easePremium }}
+            >
+              <Menu size={18} />
+            </motion.span>
+            <motion.span
+              className="absolute inset-0 inline-flex"
+              initial={false}
+              animate={{ opacity: open ? 1 : 0 }}
+              transition={{ duration: reduce ? 0 : ICON_DURATION, ease: easePremium }}
+            >
+              <X size={18} />
+            </motion.span>
+          </span>
           <span className="sr-only">
             {open ? t("common.closeMenu") : t("common.openMenu")}
           </span>
@@ -142,17 +163,51 @@ export function Navbar() {
     <AnimatePresence>
       {open ? (
         <motion.div
+          key="mobile-nav"
           id="mobile-nav"
           role="dialog"
           aria-modal="true"
           aria-labelledby={menuTitleId}
-          initial={reduce ? false : { opacity: 0, y: -8 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={reduce ? undefined : { opacity: 0, y: -8 }}
-          transition={{ duration: 0.24, ease: [0.22, 1, 0.36, 1] }}
-          className="fixed inset-0 z-[100] flex flex-col bg-canvas xl:hidden"
+          className="fixed inset-0 z-[100] overflow-hidden xl:hidden"
           style={{ height: "100dvh", minHeight: "100dvh" }}
+          initial={{ opacity: 1 }}
+          animate={{ opacity: 1 }}
+          exit={{
+            opacity: 1,
+            transition: { duration: reduce ? 0.12 : CLOSE_DURATION, ease: easePremium },
+          }}
         >
+          <motion.div
+            aria-hidden="true"
+            className="absolute inset-0 bg-canvas"
+            initial={reduce ? { opacity: 1 } : { opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{
+              opacity: 0,
+              transition: { duration: reduce ? 0.12 : CLOSE_DURATION, ease: easePremium },
+            }}
+            transition={{
+              duration: reduce ? 0.12 : OPEN_DURATION,
+              ease: easePremium,
+            }}
+          />
+          <motion.div
+            className="relative flex h-full min-h-0 flex-col"
+            initial={reduce ? { opacity: 1 } : { opacity: 0, y: -8, scale: 0.995 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={
+              reduce
+                ? { opacity: 0, transition: { duration: 0.12, ease: easePremium } }
+                : {
+                    opacity: 0,
+                    y: -6,
+                    scale: 0.995,
+                    transition: { duration: CLOSE_DURATION, ease: easePremium },
+                  }
+            }
+            transition={{ duration: reduce ? 0.12 : OPEN_DURATION, ease: easePremium }}
+            style={{ transformOrigin: "top center" }}
+          >
           <div className="flex shrink-0 items-center justify-between gap-4 border-b border-ink/10 px-5 pt-[env(safe-area-inset-top)] sm:px-8">
             <span id={menuTitleId} className="sr-only">
               {t("common.mobileNav")}
@@ -174,18 +229,47 @@ export function Navbar() {
           </div>
 
           <div className="flex min-h-0 flex-1 flex-col overflow-y-auto overscroll-contain px-5 pb-[max(1.5rem,env(safe-area-inset-bottom))] sm:px-8">
-            <nav className="flex flex-col gap-1 pt-4" aria-label={t("common.mobileNav")}>
+            <motion.nav
+              className="flex flex-col gap-1 pt-4"
+              aria-label={t("common.mobileNav")}
+              initial={reduce ? false : "hidden"}
+              animate="visible"
+              variants={{
+                hidden: {},
+                visible: {
+                  transition: {
+                    staggerChildren: 0.02,
+                    delayChildren: 0.02,
+                  },
+                },
+              }}
+            >
               {primaryNav.map((item) => (
-                <Link
+                <motion.div
                   key={item.href}
-                  href={item.href}
-                  className="border-b border-ink/8 py-4 text-lg font-medium text-ink"
-                  onClick={closeMenu}
+                  variants={
+                    reduce
+                      ? undefined
+                      : {
+                          hidden: { opacity: 0, y: -6 },
+                          visible: {
+                            opacity: 1,
+                            y: 0,
+                            transition: { duration: 0.22, ease: easePremium },
+                          },
+                        }
+                  }
                 >
-                  {t(`nav.${item.key}`)}
-                </Link>
+                  <Link
+                    href={item.href}
+                    className="block border-b border-ink/8 py-4 text-lg font-medium text-ink"
+                    onClick={closeMenu}
+                  >
+                    {t(`nav.${item.key}`)}
+                  </Link>
+                </motion.div>
               ))}
-            </nav>
+            </motion.nav>
             <LanguageSwitcher variant="mobile" onAfterSelect={closeMenu} />
             <div className="mt-8 flex flex-col gap-3 pb-4">
               <Button href="/#early-access" onClick={closeMenu}>
@@ -196,6 +280,7 @@ export function Navbar() {
               </Button>
             </div>
           </div>
+          </motion.div>
         </motion.div>
       ) : null}
     </AnimatePresence>
