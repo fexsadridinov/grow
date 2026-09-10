@@ -21,26 +21,54 @@ export default function TwitterImage() {
       >
         <div
           style={{
-            color: "#A8B7A0",
-            fontSize: 22,
-            letterSpacing: 6,
-            textTransform: "uppercase",
+            display: "flex",
+            alignItems: "center",
+            color: "#FAFAF7",
+            fontSize: 40,
+            fontWeight: 650,
+            letterSpacing: -1.5,
           }}
         >
-          FIELD / OS
+          <span>GR</span>
+          <div
+            style={{
+              display: "flex",
+              width: 32,
+              height: 30,
+              border: "2.5px solid #FAFAF7",
+              borderRadius: "50%",
+              alignItems: "center",
+              justifyContent: "center",
+              marginLeft: 2,
+              marginRight: 2,
+            }}
+          >
+            <div
+              style={{
+                width: 14,
+                height: 13,
+                border: `1.75px solid ${brand.accent}`,
+                borderRadius: "50%",
+                marginTop: 1,
+                marginLeft: 1,
+              }}
+            />
+          </div>
+          <span>W</span>
         </div>
         <div
           style={{
-            fontSize: 60,
+            fontSize: 56,
             lineHeight: 1.08,
             color: "#FAFAF7",
             letterSpacing: -2,
             maxWidth: 920,
+            fontWeight: 600,
           }}
         >
-          The operating intelligence layer for agriculture.
+          {brand.tagline}
         </div>
-        <div style={{ color: "#A8B7A0", fontSize: 22 }}>{brand.description}</div>
+        <div style={{ color: "#A8B7A0", fontSize: 22 }}>{brand.statement}</div>
       </div>
     ),
     { ...size },

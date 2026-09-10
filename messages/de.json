@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "FIELDOS — Intelligenzplattform für die Landwirtschaft",
-    "titleTemplate": "%s — FIELDOS",
-    "description": "FIELDOS ist eine Intelligenzplattform für die Landwirtschaft. Sie führt Bilddaten, agronomisches Wissen, Wetter, Boden, Historie und Ergebnisse zu belastbareren Schlagentscheidungen zusammen.",
+    "title": "GROW — Intelligenzplattform für die Landwirtschaft",
+    "titleTemplate": "%s — GROW",
+    "description": "GROW ist eine Intelligenzplattform für die Landwirtschaft. Sie führt Bilddaten, agronomisches Wissen, Wetter, Boden, Historie und Ergebnisse zu belastbareren Schlagentscheidungen zusammen.",
     "privacyTitle": "Datenschutz",
-    "privacyDescription": "Datenschutzinformationen zu FIELDOS.",
+    "privacyDescription": "Datenschutzinformationen zu GROW.",
     "termsTitle": "Nutzungsbedingungen",
-    "termsDescription": "Nutzungsbedingungen für FIELDOS.",
+    "termsDescription": "Nutzungsbedingungen für GROW.",
     "notFoundTitle": "Seite nicht gefunden"
   },
   "common": {
@@ -25,7 +25,7 @@
     "center": "Zentrieren",
     "navigate": "Navigation",
     "legal": "Rechtliches",
-    "copyright": "© {year} FIELDOS",
+    "copyright": "© {year} GROW",
     "conceptNote": "Ein Produktkonzept für Intelligenz in der Landwirtschaft.",
     "hectares": "ha",
     "highConfidence": "Hohe Konfidenz"
@@ -51,7 +51,7 @@
   "hero": {
     "eyebrow": "Intelligenz für die Landwirtschaft",
     "headline": "Operative Intelligenz für die Landwirtschaft.",
-    "body": "FIELDOS führt Bilddaten, Schlaghistorie, agronomisches Wissen, Wetter, Boden, Maßnahmen und Ergebnisse in einem System zusammen – damit jeder Schlag im Kontext verstanden werden kann."
+    "body": "GROW führt Bilddaten, Schlaghistorie, agronomisches Wissen, Wetter, Boden, Maßnahmen und Ergebnisse in einem System zusammen – damit jeder Schlag im Kontext verstanden werden kann."
   },
   "fieldContext": {
     "eyebrow": "Das Kernproblem",
@@ -59,7 +59,7 @@
     "p1": "Die meisten Agrarwerkzeuge betrachten jeweils nur ein Signal. Ein Foto. Eine Wetterprognose. Einen Bodenbericht. Einen Satellitenindex. Eine Notiz des Landwirts.",
     "p2": "Landwirtschaftliche Entscheidungen hängen davon ab, wie diese Signale zusammenhängen.",
     "centerLabel": "Schlagkontext",
-    "statement": "FIELDOS ist auf den Schlag ausgerichtet – nicht auf den Prompt.",
+    "statement": "GROW ist auf den Schlag ausgerichtet – nicht auf den Prompt.",
     "inputs": {
       "imagery": "Bilddaten",
       "weather": "Wetter",
@@ -148,7 +148,7 @@
   "knowledge": {
     "eyebrow": "Wissen",
     "title": "Agronomie muss auf Evidenz beruhen.",
-    "body": "FIELDOS ist darauf ausgelegt, eine kuratierte agronomische Wissensbasis heranzuziehen – nicht allein aus allgemeiner Sprache zu improvisieren. Die folgenden Quellen beschreiben die vorgesehene Architektur, nicht den Anspruch, dass jeder Korpus bereits angebunden ist.",
+    "body": "GROW ist darauf ausgelegt, eine kuratierte agronomische Wissensbasis heranzuziehen – nicht allein aus allgemeiner Sprache zu improvisieren. Die folgenden Quellen beschreiben die vorgesehene Architektur, nicht den Anspruch, dass jeder Korpus bereits angebunden ist.",
     "retrievalPriority": "Abrufpriorität",
     "quote": "Das Ziel ist nicht, einfach eine Antwort zu erzeugen. Es geht darum, die Information zu finden, die für diesen Schlag tatsächlich gilt.",
     "factors": {
@@ -309,7 +309,7 @@
     "intervention": "Maßnahme",
     "outcome": "Ergebnis",
     "quote": "Mit der Zeit kann die Plattform nicht nur lernen, wie ein Schlag aussieht – sondern was tatsächlich gewirkt hat.",
-    "memory": "FIELDOS wird so konzipiert, dass jede Saison Teil des Systemgedächtnisses wird.",
+    "memory": "GROW wird so konzipiert, dass jede Saison Teil des Systemgedächtnisses wird.",
     "loop": {
       "recommendation": "Empfehlung",
       "farmerAction": "Maßnahme des Betriebs",
@@ -505,7 +505,7 @@
     "history": "Jeder Schlag hat eine Historie.",
     "intervention": "Jede Maßnahme erzeugt ein Ergebnis.",
     "evidence": "Jede Saison fügt Evidenz hinzu.",
-    "body": "FIELDOS wird so konzipiert, dass dieses angesammelte Wissen zu besseren Entscheidungen führt – Schlag für Schlag, Saison für Saison."
+    "body": "GROW wird so konzipiert, dass dieses angesammelte Wissen zu besseren Entscheidungen führt – Schlag für Schlag, Saison für Saison."
   },
   "finalCta": {
     "eyebrow": "Frühzugang",
@@ -519,7 +519,7 @@
     "organization": "Organisation",
     "role": "Funktion",
     "country": "Land",
-    "intent": "Was soll FIELDOS zuerst lösen?",
+    "intent": "Was soll GROW zuerst lösen?",
     "success": "Danke. Wir melden uns, sobald die Liste für den Frühzugang geöffnet wird.",
     "errors": {
       "name": "Bitte geben Sie Ihren Namen ein.",
@@ -539,19 +539,20 @@
     }
   },
   "footer": {
-    "supportingLine": "Intelligenz für die Landwirtschaft, ausgerichtet auf den Schlag."
+    "supportingLine": "Intelligenz für die Landwirtschaft, ausgerichtet auf den Schlag.",
+    "statement": "Intelligenz, die mit jedem Schlag wächst."
   },
   "legalPages": {
     "privacyTitle": "Datenschutz",
-    "privacyP1": "Diese Seite ist ein Platzhalter. FIELDOS ist eine Website zum Produktkonzept. Eine vollständige Datenschutzerklärung wird veröffentlicht, bevor Produktionsdaten erhoben werden.",
+    "privacyP1": "Diese Seite ist ein Platzhalter. GROW ist eine Website zum Produktkonzept. Eine vollständige Datenschutzerklärung wird veröffentlicht, bevor Produktionsdaten erhoben werden.",
     "privacyP2": "Das Formular für den Frühzugang speichert derzeit nichts außer einem Serverprotokoll der übermittelten Felder. Fragen an {email}.",
     "termsTitle": "Nutzungsbedingungen",
-    "termsP1": "Diese Seite ist ein Platzhalter. Die Produktdarstellungen auf dieser Website sind konzeptionelle Abbildungen von FIELDOS, kein laufendes Produktionssystem und kein kommerzielles Angebot.",
+    "termsP1": "Diese Seite ist ein Platzhalter. Die Produktdarstellungen auf dieser Website sind konzeptionelle Abbildungen von GROW, kein laufendes Produktionssystem und kein kommerzielles Angebot.",
     "termsP2": "Formelle Nutzungsbedingungen werden vor jedem entgeltlichen oder operativen Einsatz veröffentlicht. Für Partnerschaftsgespräche: {email}."
   },
   "notFound": {
     "title": "Seite nicht gefunden",
-    "body": "Diese Route gehört nicht zur FIELDOS-Website."
+    "body": "Diese Route gehört nicht zur GROW-Website."
   },
   "fields": {
     "intelligence": "Schlagintelligenz",

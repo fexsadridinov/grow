@@ -1,6 +1,6 @@
-# FIELDOS
+# GROW
 
-A product-concept website for **FIELDOS**, an agricultural intelligence platform.
+A product-concept website for **GROW**, an agricultural intelligence platform.
 
 ## Run locally
 
@@ -19,6 +19,7 @@ npm run build
 ## Brand
 
 Product name, tagline, contact email, and social placeholders live in `src/config/brand.ts`.
+The wordmark and field-contour mark live in `src/components/brand/`.
 
 ## Notes
 

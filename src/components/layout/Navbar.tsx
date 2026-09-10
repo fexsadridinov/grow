@@ -103,7 +103,7 @@ export function Navbar() {
     >
       <div className="pt-[env(safe-area-inset-top)]">
         <div className="mx-auto flex h-16 w-full max-w-[1440px] items-center justify-between gap-4 px-5 sm:h-[4.25rem] sm:px-8 lg:px-12">
-        <Wordmark />
+        <Wordmark animate />
 
         <nav
           className="hidden min-w-0 flex-1 items-center justify-center gap-x-4 gap-y-1 xl:flex xl:gap-x-6"

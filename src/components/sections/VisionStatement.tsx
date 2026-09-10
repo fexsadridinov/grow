@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import { GrowMark } from "@/components/brand/GrowMark";
 
 export function VisionStatement() {
   const t = useTranslations("vision");
@@ -41,7 +42,10 @@ export function VisionStatement() {
       </svg>
       <div className="relative mx-auto w-full max-w-[1440px] px-5 sm:px-8 lg:px-12">
         <div className="mx-auto max-w-[820px]">
-          <p className="tech-label text-moss">{t("eyebrow")}</p>
+          <p className="flex items-center gap-2.5 tech-label text-moss">
+            <GrowMark className="h-3.5 w-[15px] text-growth" simplified />
+            {t("eyebrow")}
+          </p>
           <h2 className="mt-6 font-sans text-[2.1rem] font-semibold leading-[1.12] tracking-[-0.04em] sm:text-5xl lg:text-[3.5rem]">
             {t("title")}
           </h2>

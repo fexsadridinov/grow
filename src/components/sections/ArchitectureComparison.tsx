@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
-import { brand } from "@/config/brand";
 import { architectureLimits, architecturePath } from "@/data/knowledge";
+import { Wordmark } from "@/components/ui/Wordmark";
 import { Section } from "@/components/layout/Section";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Reveal } from "@/components/ui/Reveal";
@@ -30,7 +30,7 @@ export function ArchitectureComparison() {
         </article>
 
         <article className="rounded-xl border border-forest/20 bg-forest p-6 text-paper sm:p-8">
-          <p className="tech-label text-moss">{brand.productName}</p>
+          <Wordmark href={null} inverted size="sm" />
           <ol className="mt-6 space-y-2">
             {architecturePath.map((item, index) => (
               <li key={item} className="flex items-center gap-3 text-[15px]">

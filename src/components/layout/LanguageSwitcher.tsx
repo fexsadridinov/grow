@@ -13,7 +13,7 @@ type LanguageSwitcherProps = {
   onAfterSelect?: () => void;
 };
 
-const HASH_STORAGE_KEY = "fieldos-locale-hash";
+const HASH_STORAGE_KEY = "grow-locale-hash";
 
 function queryOptions(root: HTMLDivElement | null): HTMLButtonElement[] {
   if (!root) {

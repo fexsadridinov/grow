@@ -9,6 +9,7 @@
   --signal: #c9a94a;
   --alert: #a65c42;
   --moss: #a8b7a0;
+  --growth: #86a56e;
   --panel: #e9e6dc;
   --void: #151815;
   --paper: #fafaf7;
@@ -28,6 +29,7 @@
   --color-signal: var(--signal);
   --color-alert: var(--alert);
   --color-moss: var(--moss);
+  --color-growth: var(--growth);
   --color-panel: var(--panel);
   --color-void: var(--void);
   --color-paper: var(--paper);
@@ -144,6 +146,38 @@ body {
   }
 }
 
+@keyframes grow-mark-draw {
+  from {
+    stroke-dashoffset: 74;
+    opacity: 0.35;
+  }
+  to {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+@keyframes grow-mark-inner {
+  from {
+    opacity: 0;
+    transform: scale(0.94);
+  }
+  to {
+    opacity: 0.88;
+    transform: scale(1);
+  }
+}
+
+.grow-mark-draw {
+  animation: grow-mark-draw 0.78s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.grow-mark-inner {
+  transform-origin: 16.85px 16.7px;
+  transform-box: fill-box;
+  animation: grow-mark-inner 0.55s 0.16s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
 @keyframes node-appear {
   from {
     opacity: 0;
@@ -174,7 +208,14 @@ body {
 
   .scan-line,
   .zone-pulse,
-  .contour-drift {
+  .contour-drift,
+  .grow-mark-draw,
+  .grow-mark-inner {
     animation: none;
+  }
+
+  .grow-mark-inner {
+    opacity: 0.88;
+    transform: none;
   }
 }

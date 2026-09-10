@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "FIELDOS — Agricultural Intelligence Platform",
-    "titleTemplate": "%s — FIELDOS",
-    "description": "FIELDOS is an agricultural intelligence platform designed to combine field imagery, agronomic knowledge, weather, soil, history, and outcomes into better field decisions.",
+    "title": "GROW — Agricultural Intelligence Platform",
+    "titleTemplate": "%s — GROW",
+    "description": "GROW is an agricultural intelligence platform designed to combine field imagery, agronomic knowledge, weather, soil, history, and outcomes into better field decisions.",
     "privacyTitle": "Privacy",
-    "privacyDescription": "Privacy information for FIELDOS.",
+    "privacyDescription": "Privacy information for GROW.",
     "termsTitle": "Terms",
-    "termsDescription": "Terms of use for FIELDOS.",
+    "termsDescription": "Terms of use for GROW.",
     "notFoundTitle": "Page not found"
   },
   "common": {
@@ -25,7 +25,7 @@
     "center": "Center",
     "navigate": "Navigate",
     "legal": "Legal",
-    "copyright": "© {year} FIELDOS",
+    "copyright": "© {year} GROW",
     "conceptNote": "A product concept for agricultural intelligence.",
     "hectares": "ha",
     "highConfidence": "High confidence"
@@ -51,7 +51,7 @@
   "hero": {
     "eyebrow": "Agricultural intelligence",
     "headline": "The operating intelligence layer for agriculture.",
-    "body": "FIELDOS brings imagery, field history, agronomic knowledge, weather, soil, interventions, and outcomes into one system—so every field can be understood in context."
+    "body": "GROW brings imagery, field history, agronomic knowledge, weather, soil, interventions, and outcomes into one system—so every field can be understood in context."
   },
   "fieldContext": {
     "eyebrow": "The core problem",
@@ -59,7 +59,7 @@
     "p1": "Most agricultural tools look at one signal at a time. A photograph. A weather forecast. A soil report. A satellite index. A farmer’s note.",
     "p2": "Agricultural decisions depend on how those signals relate to one another.",
     "centerLabel": "Field context",
-    "statement": "FIELDOS is designed around the field—not the prompt.",
+    "statement": "GROW is designed around the field—not the prompt.",
     "inputs": {
       "imagery": "Imagery",
       "weather": "Weather",
@@ -148,7 +148,7 @@
   "knowledge": {
     "eyebrow": "Knowledge",
     "title": "Agronomy should be grounded in evidence.",
-    "body": "FIELDOS is designed to consult a curated agricultural knowledge base—not to improvise from generic language alone. The sources below describe the intended architecture, not a claim that every corpus is already connected.",
+    "body": "GROW is designed to consult a curated agricultural knowledge base—not to improvise from generic language alone. The sources below describe the intended architecture, not a claim that every corpus is already connected.",
     "retrievalPriority": "Retrieval priority",
     "quote": "The goal is not simply to generate an answer. It is to find the information that actually applies to this field.",
     "factors": {
@@ -309,7 +309,7 @@
     "intervention": "intervention",
     "outcome": "outcome",
     "quote": "Over time, the platform can learn not only what a field looks like—but what actually worked.",
-    "memory": "FIELDOS is being designed so every season becomes part of the system’s memory.",
+    "memory": "GROW is being designed so every season becomes part of the system’s memory.",
     "loop": {
       "recommendation": "Recommendation",
       "farmerAction": "Farmer action",
@@ -505,7 +505,7 @@
     "history": "Every field has a history.",
     "intervention": "Every intervention creates an outcome.",
     "evidence": "Every season adds evidence.",
-    "body": "FIELDOS is being designed to turn that accumulated knowledge into better decisions—field by field, season by season."
+    "body": "GROW is being designed to turn that accumulated knowledge into better decisions—field by field, season by season."
   },
   "finalCta": {
     "eyebrow": "Early access",
@@ -519,7 +519,7 @@
     "organization": "Organization",
     "role": "Role",
     "country": "Country",
-    "intent": "What would you want FIELDOS to solve first?",
+    "intent": "What would you want GROW to solve first?",
     "success": "Thank you. We will be in touch as the early-access list opens.",
     "errors": {
       "name": "Please enter your name.",
@@ -539,19 +539,20 @@
     }
   },
   "footer": {
-    "supportingLine": "Agricultural intelligence, built around the field."
+    "supportingLine": "Agricultural intelligence, built around the field.",
+    "statement": "Intelligence that grows with every field."
   },
   "legalPages": {
     "privacyTitle": "Privacy",
-    "privacyP1": "This page is a placeholder. FIELDOS is a product-concept website. A full privacy policy will be published before any production data collection begins.",
+    "privacyP1": "This page is a placeholder. GROW is a product-concept website. A full privacy policy will be published before any production data collection begins.",
     "privacyP2": "The early-access form currently stores nothing beyond a server log of the submitted fields. Contact {email} with questions.",
     "termsTitle": "Terms",
-    "termsP1": "This page is a placeholder. Product visualizations on this site are conceptual representations of FIELDOS, not a live production system and not a commercial offer.",
+    "termsP1": "This page is a placeholder. Product visualizations on this site are conceptual representations of GROW, not a live production system and not a commercial offer.",
     "termsP2": "Formal terms of use will be issued before any paid or operational deployment. Contact {email} for partnership discussions."
   },
   "notFound": {
     "title": "Page not found",
-    "body": "That route is not part of the FIELDOS site."
+    "body": "That route is not part of the GROW site."
   },
   "fields": {
     "intelligence": "Field intelligence",

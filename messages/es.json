@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "FIELDOS — plataforma de inteligencia agrícola",
-    "titleTemplate": "%s — FIELDOS",
-    "description": "FIELDOS es una plataforma de inteligencia agrícola diseñada para integrar imágenes de parcelas, conocimiento agronómico, clima, suelo, historial y resultados en mejores decisiones de campo.",
+    "title": "GROW — plataforma de inteligencia agrícola",
+    "titleTemplate": "%s — GROW",
+    "description": "GROW es una plataforma de inteligencia agrícola diseñada para integrar imágenes de parcelas, conocimiento agronómico, clima, suelo, historial y resultados en mejores decisiones de campo.",
     "privacyTitle": "Privacidad",
-    "privacyDescription": "Información de privacidad de FIELDOS.",
+    "privacyDescription": "Información de privacidad de GROW.",
     "termsTitle": "Términos",
-    "termsDescription": "Términos de uso de FIELDOS.",
+    "termsDescription": "Términos de uso de GROW.",
     "notFoundTitle": "Página no encontrada"
   },
   "common": {
@@ -25,7 +25,7 @@
     "center": "Centro",
     "navigate": "Navegar",
     "legal": "Legal",
-    "copyright": "© {year} FIELDOS",
+    "copyright": "© {year} GROW",
     "conceptNote": "Una concepción de producto de inteligencia agrícola.",
     "hectares": "ha",
     "highConfidence": "Alta confianza"
@@ -51,7 +51,7 @@
   "hero": {
     "eyebrow": "Inteligencia agrícola",
     "headline": "Inteligencia operativa para la agricultura.",
-    "body": "FIELDOS integra imágenes, historial de la parcela, conocimiento agronómico, clima, suelo, intervenciones y resultados en un solo sistema — para que cada parcela se comprenda en contexto."
+    "body": "GROW integra imágenes, historial de la parcela, conocimiento agronómico, clima, suelo, intervenciones y resultados en un solo sistema — para que cada parcela se comprenda en contexto."
   },
   "fieldContext": {
     "eyebrow": "El problema central",
@@ -59,7 +59,7 @@
     "p1": "La mayoría de las herramientas agrícolas observan una señal a la vez. Una fotografía. Un pronóstico. Un informe de suelo. Un índice satelital. Una nota del productor.",
     "p2": "Las decisiones agrícolas dependen de cómo se relacionan esas señales entre sí.",
     "centerLabel": "Contexto de la parcela",
-    "statement": "FIELDOS está diseñado en torno a la parcela — no a la consulta.",
+    "statement": "GROW está diseñado en torno a la parcela — no a la consulta.",
     "inputs": {
       "imagery": "Imágenes",
       "weather": "Clima",
@@ -148,7 +148,7 @@
   "knowledge": {
     "eyebrow": "Conocimiento",
     "title": "La agronomía debe basarse en evidencia.",
-    "body": "FIELDOS está diseñado para consultar una base de conocimiento agrícola curada — no para improvisar solo a partir del lenguaje genérico. Las fuentes siguientes describen la arquitectura prevista, no la afirmación de que cada corpus ya está conectado.",
+    "body": "GROW está diseñado para consultar una base de conocimiento agrícola curada — no para improvisar solo a partir del lenguaje genérico. Las fuentes siguientes describen la arquitectura prevista, no la afirmación de que cada corpus ya está conectado.",
     "retrievalPriority": "Prioridad de recuperación",
     "quote": "El objetivo no es simplemente generar una respuesta. Es encontrar la información que realmente aplica a esta parcela.",
     "factors": {
@@ -309,7 +309,7 @@
     "intervention": "intervención",
     "outcome": "resultado",
     "quote": "Con el tiempo, la plataforma puede aprender no solo cómo se ve una parcela — sino qué funcionó de verdad.",
-    "memory": "FIELDOS se diseña para que cada campaña forme parte de la memoria del sistema.",
+    "memory": "GROW se diseña para que cada campaña forme parte de la memoria del sistema.",
     "loop": {
       "recommendation": "Recomendación",
       "farmerAction": "Acción del productor",
@@ -505,7 +505,7 @@
     "history": "Cada parcela tiene un historial.",
     "intervention": "Cada intervención genera un resultado.",
     "evidence": "Cada campaña aporta evidencia.",
-    "body": "FIELDOS se diseña para convertir ese conocimiento acumulado en mejores decisiones — parcela a parcela, campaña a campaña."
+    "body": "GROW se diseña para convertir ese conocimiento acumulado en mejores decisiones — parcela a parcela, campaña a campaña."
   },
   "finalCta": {
     "eyebrow": "Acceso anticipado",
@@ -519,7 +519,7 @@
     "organization": "Organización",
     "role": "Rol",
     "country": "País",
-    "intent": "¿Qué le gustaría que FIELDOS resolviera primero?",
+    "intent": "¿Qué le gustaría que GROW resolviera primero?",
     "success": "Gracias. Nos pondremos en contacto cuando se abra la lista de acceso anticipado.",
     "errors": {
       "name": "Indique su nombre.",
@@ -539,19 +539,20 @@
     }
   },
   "footer": {
-    "supportingLine": "Inteligencia agrícola, construida en torno a la parcela."
+    "supportingLine": "Inteligencia agrícola, construida en torno a la parcela.",
+    "statement": "Inteligencia que crece con cada parcela."
   },
   "legalPages": {
     "privacyTitle": "Privacidad",
-    "privacyP1": "Esta página es un marcador de posición. FIELDOS es un sitio de concepción de producto. Se publicará una política de privacidad completa antes de que comience cualquier recolección de datos de producción.",
+    "privacyP1": "Esta página es un marcador de posición. GROW es un sitio de concepción de producto. Se publicará una política de privacidad completa antes de que comience cualquier recolección de datos de producción.",
     "privacyP2": "El formulario de acceso anticipado no almacena actualmente nada más que un registro de servidor de los campos enviados. Escriba a {email} si tiene preguntas.",
     "termsTitle": "Términos",
-    "termsP1": "Esta página es un marcador de posición. Las visualizaciones de producto en este sitio son representaciones conceptuales de FIELDOS, no un sistema de producción en vivo ni una oferta comercial.",
+    "termsP1": "Esta página es un marcador de posición. Las visualizaciones de producto en este sitio son representaciones conceptuales de GROW, no un sistema de producción en vivo ni una oferta comercial.",
     "termsP2": "Los términos de uso formales se emitirán antes de cualquier despliegue de pago u operativo. Escriba a {email} para conversaciones de alianza."
   },
   "notFound": {
     "title": "Página no encontrada",
-    "body": "Esa ruta no forma parte del sitio de FIELDOS."
+    "body": "Esa ruta no forma parte del sitio de GROW."
   },
   "fields": {
     "intelligence": "Inteligencia de parcela",

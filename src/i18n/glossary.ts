@@ -1,9 +1,9 @@
 /**
- * Terminology glossary for FIELDOS localization.
+ * Terminology glossary for GROW localization.
  * Keep labels consistent across the site; do not translate the brand name.
  */
 export const terminology = {
-  brand: "FIELDOS",
+  brand: "GROW",
   field: {
     en: "Field",
     uk: "Поле",

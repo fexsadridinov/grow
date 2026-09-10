@@ -7,7 +7,7 @@ export default function RootNotFound() {
         <main className="mx-auto flex min-h-[60vh] w-full max-w-[1440px] flex-col justify-center px-5 py-24">
           <p className="text-[11px] tracking-[0.16em] uppercase text-[#64715C]">404</p>
           <h1 className="mt-4 text-4xl tracking-[-0.04em]">Page not found</h1>
-          <p className="mt-4 text-[#132019]/70">That route is not part of the FIELDOS site.</p>
+          <p className="mt-4 text-[#132019]/70">That route is not part of the GROW site.</p>
           <div className="mt-8">
             <Link
               href="/"

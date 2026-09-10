@@ -12,9 +12,12 @@ export function Footer() {
       <div className="mx-auto w-full max-w-[1440px] px-5 py-16 sm:px-8 lg:px-12">
         <div className="mx-auto flex max-w-[1280px] flex-col gap-12 lg:flex-row lg:items-start lg:justify-between">
           <div className="max-w-sm">
-            <Wordmark href="/" />
-            <p className="mt-4 text-[15px] leading-6 text-ink/65">
+            <Wordmark href="/" size="lg" />
+            <p className="mt-5 text-[15px] leading-6 text-ink/65">
               {t("footer.supportingLine")}
+            </p>
+            <p className="mt-2 text-[13.5px] leading-5 text-ink/45">
+              {t("footer.statement")}
             </p>
           </div>
 

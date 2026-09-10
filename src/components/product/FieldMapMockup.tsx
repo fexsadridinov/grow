@@ -8,6 +8,7 @@ import type { SampleField } from "@/data/sampleFields";
 import { FieldHealthScore } from "@/components/product/FieldHealthScore";
 import { RiskBadge } from "@/components/product/RiskBadge";
 import { ConceptualMark } from "@/components/ui/ConceptualMark";
+import { GrowMark } from "@/components/brand/GrowMark";
 import { cn, formatHectares } from "@/lib/utils";
 import type { Locale } from "@/i18n/routing";
 
@@ -39,7 +40,10 @@ export function FieldMapMockup({
       <div className="grid-night pointer-events-none absolute inset-0 opacity-70" />
       <div className="relative flex items-center justify-between gap-3 border-b border-white/8 px-4 py-3 sm:px-5">
         <div className="min-w-0">
-          <p className="tech-label text-moss/80">{t("fields.intelligence")}</p>
+          <p className="flex items-center gap-2 tech-label text-moss/80">
+            <GrowMark className="h-3.5 w-[15px] text-growth" simplified />
+            {t("fields.intelligence")}
+          </p>
           <p className="mt-1 font-mono text-[13px] tracking-wide">
             {t(`fields.items.${field.id}.code`)} · {t(`fields.crops.${field.crop}`)} ·{" "}
             <span suppressHydrationWarning>

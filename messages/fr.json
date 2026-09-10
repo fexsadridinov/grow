@@ -1,12 +1,12 @@
 {
   "metadata": {
-    "title": "FIELDOS — Plateforme d’intelligence agricole",
-    "titleTemplate": "%s — FIELDOS",
-    "description": "FIELDOS est une plateforme d’intelligence agricole conçue pour relier imagerie de parcelle, savoir agronomique, météo, sol, historique et résultats afin d’améliorer les décisions au champ.",
+    "title": "GROW — Plateforme d’intelligence agricole",
+    "titleTemplate": "%s — GROW",
+    "description": "GROW est une plateforme d’intelligence agricole conçue pour relier imagerie de parcelle, savoir agronomique, météo, sol, historique et résultats afin d’améliorer les décisions au champ.",
     "privacyTitle": "Confidentialité",
-    "privacyDescription": "Informations de confidentialité concernant FIELDOS.",
+    "privacyDescription": "Informations de confidentialité concernant GROW.",
     "termsTitle": "Conditions d’utilisation",
-    "termsDescription": "Conditions d’utilisation de FIELDOS.",
+    "termsDescription": "Conditions d’utilisation de GROW.",
     "notFoundTitle": "Page introuvable"
   },
   "common": {
@@ -25,7 +25,7 @@
     "center": "Centrer",
     "navigate": "Navigation",
     "legal": "Mentions légales",
-    "copyright": "© {year} FIELDOS",
+    "copyright": "© {year} GROW",
     "conceptNote": "Un concept de produit d’intelligence agricole.",
     "hectares": "ha",
     "highConfidence": "Confiance élevée"
@@ -51,7 +51,7 @@
   "hero": {
     "eyebrow": "Intelligence agricole",
     "headline": "L’intelligence opérationnelle au service de l’agriculture.",
-    "body": "FIELDOS réunit imagerie, historique de la parcelle, savoir agronomique, météo, sol, interventions et résultats dans un seul système — pour que chaque parcelle soit comprise dans son contexte."
+    "body": "GROW réunit imagerie, historique de la parcelle, savoir agronomique, météo, sol, interventions et résultats dans un seul système — pour que chaque parcelle soit comprise dans son contexte."
   },
   "fieldContext": {
     "eyebrow": "Le problème central",
@@ -59,7 +59,7 @@
     "p1": "La plupart des outils agricoles n’observent qu’un signal à la fois. Une photographie. Une prévision météo. Une analyse de sol. Un indice satellitaire. Une note d’exploitant.",
     "p2": "Les décisions agricoles dépendent des relations entre ces signaux.",
     "centerLabel": "Contexte de la parcelle",
-    "statement": "FIELDOS est conçu autour de la parcelle — pas autour du prompt.",
+    "statement": "GROW est conçu autour de la parcelle — pas autour du prompt.",
     "inputs": {
       "imagery": "Imagerie",
       "weather": "Météo",
@@ -148,7 +148,7 @@
   "knowledge": {
     "eyebrow": "Connaissances",
     "title": "L’agronomie doit s’appuyer sur des preuves.",
-    "body": "FIELDOS est conçu pour consulter une base de connaissances agricoles sélectionnée — et non pour improviser à partir du seul langage générique. Les sources ci-dessous décrivent l’architecture prévue, sans prétendre que chaque corpus est déjà connecté.",
+    "body": "GROW est conçu pour consulter une base de connaissances agricoles sélectionnée — et non pour improviser à partir du seul langage générique. Les sources ci-dessous décrivent l’architecture prévue, sans prétendre que chaque corpus est déjà connecté.",
     "retrievalPriority": "Priorité de recherche",
     "quote": "L’objectif n’est pas seulement de produire une réponse. Il s’agit de trouver l’information qui s’applique réellement à cette parcelle.",
     "factors": {
@@ -309,7 +309,7 @@
     "intervention": "intervention",
     "outcome": "résultat",
     "quote": "Avec le temps, la plateforme peut apprendre non seulement l’apparence d’une parcelle, mais ce qui a réellement fonctionné.",
-    "memory": "FIELDOS est conçu pour que chaque saison intègre la mémoire du système.",
+    "memory": "GROW est conçu pour que chaque saison intègre la mémoire du système.",
     "loop": {
       "recommendation": "Recommandation",
       "farmerAction": "Action de l’exploitant",
@@ -505,7 +505,7 @@
     "history": "Chaque parcelle a un historique.",
     "intervention": "Chaque intervention produit un résultat.",
     "evidence": "Chaque saison ajoute des preuves.",
-    "body": "FIELDOS est conçu pour transformer ce savoir accumulé en meilleures décisions — parcelle par parcelle, saison par saison."
+    "body": "GROW est conçu pour transformer ce savoir accumulé en meilleures décisions — parcelle par parcelle, saison par saison."
   },
   "finalCta": {
     "eyebrow": "Accès anticipé",
@@ -519,7 +519,7 @@
     "organization": "Organisation",
     "role": "Fonction",
     "country": "Pays",
-    "intent": "Quel problème FIELDOS devrait-il résoudre en premier ?",
+    "intent": "Quel problème GROW devrait-il résoudre en premier ?",
     "success": "Merci. Nous vous écrirons à l’ouverture de la liste d’accès anticipé.",
     "errors": {
       "name": "Veuillez indiquer votre nom.",
@@ -539,19 +539,20 @@
     }
   },
   "footer": {
-    "supportingLine": "L’intelligence agricole, conçue autour de la parcelle."
+    "supportingLine": "L’intelligence agricole, conçue autour de la parcelle.",
+    "statement": "Une intelligence qui grandit avec chaque parcelle."
   },
   "legalPages": {
     "privacyTitle": "Confidentialité",
-    "privacyP1": "Cette page est un espace réservé. FIELDOS est un site de concept produit. Une politique de confidentialité complète sera publiée avant tout recueil de données en production.",
+    "privacyP1": "Cette page est un espace réservé. GROW est un site de concept produit. Une politique de confidentialité complète sera publiée avant tout recueil de données en production.",
     "privacyP2": "Le formulaire d’accès anticipé n’enregistre actuellement rien d’autre qu’un journal serveur des champs soumis. Pour toute question, contactez {email}.",
     "termsTitle": "Conditions d’utilisation",
-    "termsP1": "Cette page est un espace réservé. Les visualisations produit de ce site sont des représentations conceptuelles de FIELDOS, non un système de production en service et non une offre commerciale.",
+    "termsP1": "Cette page est un espace réservé. Les visualisations produit de ce site sont des représentations conceptuelles de GROW, non un système de production en service et non une offre commerciale.",
     "termsP2": "Des conditions d’utilisation officielles seront publiées avant tout déploiement payant ou opérationnel. Contactez {email} pour toute discussion de partenariat."
   },
   "notFound": {
     "title": "Page introuvable",
-    "body": "Cet itinéraire ne fait pas partie du site FIELDOS."
+    "body": "Cet itinéraire ne fait pas partie du site GROW."
   },
   "fields": {
     "intelligence": "Intelligence de parcelle",

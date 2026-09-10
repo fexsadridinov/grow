@@ -83,6 +83,15 @@ export default async function LocaleLayout({ children, params }: Props) {
   setRequestLocale(locale);
   const messages = await getMessages();
   const t = await getTranslations("common");
+  const meta = await getTranslations("metadata");
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: brand.productName,
+    url: localeUrl(locale, "/"),
+    description: meta("description"),
+    slogan: brand.tagline,
+  };
 
   return (
     <html
@@ -91,6 +100,10 @@ export default async function LocaleLayout({ children, params }: Props) {
       className={`${manrope.variable} ${ibmPlexMono.variable} h-full antialiased`}
     >
       <body className="min-h-full bg-canvas font-sans text-ink">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <NextIntlClientProvider locale={locale} messages={messages} timeZone="UTC">
           <a href="#main" className="skip-link">
             {t("skipToContent")}
