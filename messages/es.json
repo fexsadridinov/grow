@@ -520,7 +520,7 @@
     "role": "Rol",
     "country": "País",
     "intent": "¿Qué le gustaría que GROW resolviera primero?",
-    "success": "Gracias. Nos pondremos en contacto cuando se abra la lista de acceso anticipado.",
+    "success": "El borrador está listo. Envíelo desde su aplicación de correo para completar la solicitud. Si no se abrió, utilice el enlace de correo junto al formulario.",
     "errors": {
       "name": "Indique su nombre.",
       "email": "Indique una dirección de correo válida.",
@@ -545,7 +545,7 @@
   "legalPages": {
     "privacyTitle": "Privacidad",
     "privacyP1": "Esta página es un marcador de posición. GROW es un sitio de concepción de producto. Se publicará una política de privacidad completa antes de que comience cualquier recolección de datos de producción.",
-    "privacyP2": "El formulario de acceso anticipado no almacena actualmente nada más que un registro de servidor de los campos enviados. Escriba a {email} si tiene preguntas.",
+    "privacyP2": "El formulario prepara un correo en su aplicación de correo. Este sitio no recibe ni almacena los datos del formulario. Su idioma se guarda en una cookie. Consultas: {email}.",
     "termsTitle": "Términos",
     "termsP1": "Esta página es un marcador de posición. Las visualizaciones de producto en este sitio son representaciones conceptuales de GROW, no un sistema de producción en vivo ni una oferta comercial.",
     "termsP2": "Los términos de uso formales se emitirán antes de cualquier despliegue de pago u operativo. Escriba a {email} para conversaciones de alianza."
@@ -594,23 +594,23 @@
     "items": {
       "field-14": {
         "name": "Norte 14",
-        "code": "FIELD 14",
+        "code": "PARCELA 14",
         "primaryConcern": "Posible estrés de nitrógeno",
         "recommendedAction": "Inspeccionar cinco puntos en la zona afectada y verificar con análisis de tejido."
       },
       "field-7": {
         "name": "Este 7",
-        "code": "FIELD 7",
+        "code": "PARCELA 7",
         "primaryConcern": "Riesgo de enfermedad fúngica en aumento"
       },
       "field-21": {
         "name": "Sur 21",
-        "code": "FIELD 21",
+        "code": "PARCELA 21",
         "primaryConcern": "Pronóstico de humedad del suelo por debajo del objetivo en 4 días"
       },
       "field-3": {
         "name": "Oeste 3",
-        "code": "FIELD 3"
+        "code": "PARCELA 3"
       }
     },
     "risks": {
@@ -631,5 +631,70 @@
       "t2-21": "El pronóstico de humedad cayó por debajo del objetivo",
       "t1-3": "Dosel uniforme en toda la parcela"
     }
+  },
+  "introduction": {
+    "headline": "Inteligencia.\nDesde el campo.",
+    "subhead": "La base inteligente para las decisiones agrícolas.",
+    "status": "En desarrollo · Abiertos a colaborar",
+    "imageAlt": "Paisaje aéreo ilustrativo de parcelas geométricas en tonos verdes y ocres suaves.",
+    "imageNote": "Paisaje generado · Capa de parcela conceptual",
+    "scroll": "Descubrir el sistema",
+    "principle": "Las mejores decisiones parten de una visión completa.",
+    "principleBody": "Una hoja pálida es una señal. Su significado depende del suelo, del clima y de todo lo que ocurrió antes. GROW se está creando para conectar esos factores.",
+    "heritageLabel": "Nuestro punto de partida",
+    "heritageTitle": "Tres generaciones de experiencia. Un sistema inteligente.",
+    "heritageBody": "GROW nace de una convicción: el conocimiento de generaciones de agricultores no debería perderse entre temporadas. Con raíces en tres generaciones de agricultura familiar, queremos unir el criterio práctico con una nueva forma de comprender cada parcela.",
+    "heritageEnd": "La tecnología debe ampliar el conocimiento del agricultor. Y cada temporada debe dejar más aprendizaje.",
+    "systemLabel": "01 / La idea",
+    "systemTitle": "El campo es un sistema vivo. Su inteligencia también debe serlo.",
+    "systemBody": "Más que un panel de lecturas aisladas: una comprensión continua de la parcela. Qué cambió, por qué importa, qué comprobar y qué ocurrió después.",
+    "demoLabel": "02 / La lógica de una decisión",
+    "demoTitle": "De una señal al siguiente paso.",
+    "demoBody": "Explore un escenario representativo. Cambie el problema, siga las evidencias y vea cómo una decisión pasa a formar parte del historial de la parcela.",
+    "scenarioLabel": "Elegir un escenario",
+    "nitrogen": "Estrés nutricional",
+    "water": "Estrés hídrico",
+    "disease": "Riesgo de enfermedad",
+    "observation": "Observación",
+    "context": "Contexto de la parcela",
+    "decision": "Siguiente decisión",
+    "outcome": "Resultado a seguir",
+    "nitrogenObservation": "Aparece clorosis irregular en las hojas más antiguas de la zona norte.",
+    "nitrogenContext": "Trigo de invierno. Lluvias recientes. La disponibilidad de nitrógeno es incierta; los síntomas visuales no bastan para confirmar una deficiencia.",
+    "nitrogenDecision": "Inspeccione cinco puntos representativos. Compare análisis foliares y nitratos del suelo antes de planificar una aplicación.",
+    "nitrogenOutcome": "Registre el tratamiento y compare la recuperación del cultivo con zonas testigo sin tratar.",
+    "waterObservation": "El cultivo muestra menor vigor en una zona elevada de la parcela.",
+    "waterContext": "Hay que contrastar textura del suelo, humedad radicular y lluvias recientes. El aspecto del cultivo no sustituye al balance hídrico.",
+    "waterDecision": "Verifique la humedad a la profundidad de las raíces y la previsión meteorológica antes de decidir si el riego está justificado.",
+    "waterOutcome": "Compare humedad y respuesta del cultivo, registrando lluvia y riego por separado.",
+    "diseaseObservation": "Se observan lesiones foliares tras varios días húmedos.",
+    "diseaseContext": "La etapa del cultivo, las recomendaciones regionales y el patrón de lesiones pueden cambiar la evaluación. Una foto no confirma el patógeno.",
+    "diseaseDecision": "Revise las hojas inferiores y solicite confirmación agronómica antes de considerar una ventana de tratamiento.",
+    "diseaseOutcome": "Siga la evolución de las lesiones y del nuevo crecimiento. Registre el momento del tratamiento y las condiciones ambientales.",
+    "sample": "Escenario ilustrativo · Sin análisis en vivo",
+    "inspect": "Cadena de evidencias",
+    "record": "Registrar una inspección de ejemplo",
+    "recorded": "Inspección de ejemplo registrada. Aún se necesitan evidencias de seguimiento.",
+    "reset": "Reiniciar escenario",
+    "awaiting": "Pendiente de verificación en campo",
+    "reviewed": "Inspección registrada",
+    "architectureLabel": "03 / Dentro del sistema",
+    "architectureTitle": "Muchas señales. Un modelo de parcela.",
+    "architectureBody": "Una arquitectura pensada para unir observación, evidencia y decisiones operativas. Son capas propuestas, no integraciones ya desplegadas.",
+    "sensing": "Observar la parcela",
+    "sensingBody": "Primero, fotos, notas de campo, suelo y clima. Después, series satelitales, imágenes georreferenciadas de drones y sensores RGB, multiespectrales y térmicos.",
+    "reasoning": "Construir conocimiento",
+    "reasoningBody": "Los modelos de visión y lenguaje identifican observaciones. La generación aumentada por recuperación (RAG) las conecta con agronomía del cultivo, orientación regional e historial de la parcela, con fuentes trazables e incertidumbre explícita.",
+    "operations": "Apoyar la decisión",
+    "operationsBody": "El agrónomo revisa prioridades según plazos, recursos y condiciones locales. A futuro: zonas de manejo, mapas de prescripción, conexión con maquinaria y un modelo que aprende de los resultados.",
+    "exploreTechnical": "Explorar las notas técnicas",
+    "heritageCaption": "Experiencia transmitida. Evidencia acumulada.",
+    "formNote": "Su aplicación de correo abrirá una solicitud preparada. Revísela y pulse Enviar. Este sitio no almacena sus datos.",
+    "roadmapNote": "La plataforma está en desarrollo. Todas las capas están previstas; este sitio presenta el concepto, no un servicio agrícola desplegado.",
+    "roadmapNow": "Fundamentos",
+    "readiness": "Hoy, el concepto. Después, evidencia en campo.",
+    "expertLabel": "El criterio experto, desde el diseño",
+    "expertTitle": "El agrónomo sigue en el centro de la decisión.",
+    "expertBody": "GROW está concebido para reunir evidencia, mostrar incertidumbre y permitir la revisión de recomendaciones. El criterio profesional determina las acciones en campo; las correcciones pasan al historial."
   }
 }

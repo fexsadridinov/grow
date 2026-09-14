@@ -520,7 +520,7 @@
     "role": "Funktion",
     "country": "Land",
     "intent": "Was soll GROW zuerst lösen?",
-    "success": "Danke. Wir melden uns, sobald die Liste für den Frühzugang geöffnet wird.",
+    "success": "Ihr E-Mail-Entwurf ist bereit. Senden Sie ihn in Ihrem E-Mail-Programm ab. Falls kein Programm geöffnet wurde, nutzen Sie den E-Mail-Link neben dem Formular.",
     "errors": {
       "name": "Bitte geben Sie Ihren Namen ein.",
       "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
@@ -545,7 +545,7 @@
   "legalPages": {
     "privacyTitle": "Datenschutz",
     "privacyP1": "Diese Seite ist ein Platzhalter. GROW ist eine Website zum Produktkonzept. Eine vollständige Datenschutzerklärung wird veröffentlicht, bevor Produktionsdaten erhoben werden.",
-    "privacyP2": "Das Formular für den Frühzugang speichert derzeit nichts außer einem Serverprotokoll der übermittelten Felder. Fragen an {email}.",
+    "privacyP2": "Das Anfrageformular erstellt eine E-Mail in Ihrem eigenen E-Mail-Programm. Die Formulardaten werden nicht an diese Website gesendet oder hier gespeichert. Ihre Sprachwahl wird in einem Cookie gespeichert. Fragen: {email}.",
     "termsTitle": "Nutzungsbedingungen",
     "termsP1": "Diese Seite ist ein Platzhalter. Die Produktdarstellungen auf dieser Website sind konzeptionelle Abbildungen von GROW, kein laufendes Produktionssystem und kein kommerzielles Angebot.",
     "termsP2": "Formelle Nutzungsbedingungen werden vor jedem entgeltlichen oder operativen Einsatz veröffentlicht. Für Partnerschaftsgespräche: {email}."
@@ -594,23 +594,23 @@
     "items": {
       "field-14": {
         "name": "Nord 14",
-        "code": "FIELD 14",
+        "code": "SCHLAG 14",
         "primaryConcern": "Möglicher Stickstoffstress",
         "recommendedAction": "Fünf Stellen in der betroffenen Zone prüfen und per Gewebeanalyse bestätigen."
       },
       "field-7": {
         "name": "Ost 7",
-        "code": "FIELD 7",
+        "code": "SCHLAG 7",
         "primaryConcern": "Steigendes Risiko für Pilzkrankheiten"
       },
       "field-21": {
         "name": "Süd 21",
-        "code": "FIELD 21",
+        "code": "SCHLAG 21",
         "primaryConcern": "Prognostizierte Bodenfeuchte in 4 Tagen unter Ziel"
       },
       "field-3": {
         "name": "West 3",
-        "code": "FIELD 3"
+        "code": "SCHLAG 3"
       }
     },
     "risks": {
@@ -631,5 +631,70 @@
       "t2-21": "Feuchteprognose unter Ziel gefallen",
       "t1-3": "Bestand über den Schlag hinweg gleichmäßig"
     }
+  },
+  "introduction": {
+    "headline": "Intelligenz.\nIm Feld verwurzelt.",
+    "subhead": "Die intelligente Grundlage für landwirtschaftliche Entscheidungen.",
+    "status": "In Entwicklung · Offen für Zusammenarbeit",
+    "imageAlt": "Illustrative Luftaufnahme geometrischer Ackerflächen in gedeckten Grün- und Ockertönen.",
+    "imageNote": "Generierte Landschaft · Konzeptuelle Feldebene",
+    "scroll": "System entdecken",
+    "principle": "Bessere Entscheidungen brauchen das ganze Bild.",
+    "principleBody": "Ein blasses Blatt ist ein Signal. Seine Bedeutung hängt vom Boden, vom Wetter und der Vorgeschichte ab. GROW soll diese Zusammenhänge sichtbar machen.",
+    "heritageLabel": "Unser Ausgangspunkt",
+    "heritageTitle": "Drei Generationen Erfahrung. Ein intelligentes System.",
+    "heritageBody": "GROW beruht auf einer Überzeugung: Das Wissen mehrerer Generationen darf nicht zwischen den Saisons verloren gehen. Aus drei Generationen familiärer Landwirtschaft entsteht die Idee, praktisches Urteilsvermögen mit einer neuen Form der Feldanalyse zu verbinden.",
+    "heritageEnd": "Technologie soll das Verständnis der Landwirte erweitern. Und jede Saison soll neues Wissen hinterlassen.",
+    "systemLabel": "01 / Die Idee",
+    "systemTitle": "Ein Feld ist ein lebendiges System. Seine Intelligenz sollte es auch sein.",
+    "systemBody": "Mehr als ein Dashboard isolierter Messwerte: ein fortlaufendes Verständnis des Schlags. Was hat sich verändert, warum ist es wichtig, was muss geprüft werden und was war das Ergebnis?",
+    "demoLabel": "02 / Eine Entscheidung wird nachvollziehbar",
+    "demoTitle": "Vom Signal zum nächsten Schritt.",
+    "demoBody": "Erkunden Sie ein beispielhaftes Feldszenario. Wechseln Sie das Problem, verfolgen Sie die Befunde und sehen Sie, wie Entscheidungen Teil der Schlaghistorie werden.",
+    "scenarioLabel": "Szenario wählen",
+    "nitrogen": "Nährstoffstress",
+    "water": "Wasserstress",
+    "disease": "Krankheitsdruck",
+    "observation": "Beobachtung",
+    "context": "Schlagkontext",
+    "decision": "Nächste Entscheidung",
+    "outcome": "Ergebnis verfolgen",
+    "nitrogenObservation": "Ältere Blätter in der Nordzone zeigen ungleichmäßige Chlorosen.",
+    "nitrogenContext": "Winterweizen. Jüngste Niederschläge. Die Stickstoffverfügbarkeit ist unklar; visuelle Symptome allein bestätigen keinen Mangel.",
+    "nitrogenDecision": "Prüfen Sie fünf repräsentative Stellen. Vergleichen Sie Pflanzenanalysen und Bodennitratwerte, bevor Sie eine Ausbringung planen.",
+    "nitrogenOutcome": "Dokumentieren Sie die Maßnahme und vergleichen Sie die Bestandserholung mit unbehandelten Referenzflächen.",
+    "waterObservation": "Der Bestand zeigt auf einem höher gelegenen Teil des Schlags geringere Vitalität.",
+    "waterContext": "Bodenart, Feuchtigkeit im Wurzelraum und Niederschlag müssen gemeinsam betrachtet werden. Das Erscheinungsbild ersetzt keine Wasserbilanz.",
+    "waterDecision": "Prüfen Sie die Feuchtigkeit in Wurzeltiefe und die Wetterprognose, bevor Sie über eine Bewässerung entscheiden.",
+    "waterOutcome": "Vergleichen Sie Bodenfeuchte und Bestandsreaktion. Erfassen Sie Niederschlag und Bewässerung getrennt.",
+    "diseaseObservation": "Nach mehreren feuchten Tagen werden Blattläsionen gemeldet.",
+    "diseaseContext": "Entwicklungsstadium, regionale Empfehlungen und Läsionsmuster können die Bewertung verändern. Ein Foto bestätigt keinen Erreger.",
+    "diseaseDecision": "Kontrollieren Sie die unteren Blattetagen und holen Sie fachliche Bestätigung ein, bevor Sie ein Behandlungsfenster erwägen.",
+    "diseaseOutcome": "Verfolgen Sie Läsionen und Neuzuwachs. Dokumentieren Sie Behandlungszeitpunkt und Umweltbedingungen.",
+    "sample": "Beispielszenario · Keine Live-Analyse",
+    "inspect": "Nachvollziehbare Befunde",
+    "record": "Beispielkontrolle erfassen",
+    "recorded": "Beispielkontrolle erfasst. Weitere Beobachtungen sind erforderlich.",
+    "reset": "Szenario zurücksetzen",
+    "awaiting": "Feldprüfung ausstehend",
+    "reviewed": "Kontrolle erfasst",
+    "architectureLabel": "03 / Unter der Oberfläche",
+    "architectureTitle": "Viele Signale. Ein Feldmodell.",
+    "architectureBody": "Eine Architektur, die Erfassung, Fachwissen und betriebliche Entscheidungen verbinden soll. Dies sind geplante Systemebenen, keine bereits verfügbaren Integrationen.",
+    "sensing": "Das Feld erfassen",
+    "sensingBody": "Zunächst Fotos, Feldnotizen, Boden und Wetter. Später Satellitenzeitreihen, georeferenzierte Drohnenbilder sowie RGB-, Multispektral- und Thermalsensorik.",
+    "reasoning": "Zusammenhänge verstehen",
+    "reasoningBody": "Bild-Sprach-Modelle erkennen Beobachtungen. Retrieval-Augmented Generation (RAG) verbindet sie mit kulturbezogenem Fachwissen, regionalen Empfehlungen und der Schlaghistorie — mit nachvollziehbaren Quellen und ausgewiesener Unsicherheit.",
+    "operations": "Entscheidungen unterstützen",
+    "operationsBody": "Fachleute prüfen Prioritäten anhand von Zeitfenstern, Ressourcen und örtlichen Vorgaben. Perspektivisch: Bewirtschaftungszonen, Applikationskarten, Maschinenanbindung und ein aus Ergebnissen lernendes Feldmodell.",
+    "exploreTechnical": "Technische Details erkunden",
+    "heritageCaption": "Erfahrung weitergeben. Erkenntnisse bewahren.",
+    "formNote": "Ihr E-Mail-Programm öffnet eine vorbereitete Anfrage. Prüfen Sie diese und klicken Sie auf Senden. Diese Website speichert Ihre Angaben nicht.",
+    "roadmapNote": "Die Plattform wird entwickelt. Alle Ebenen sind geplant; diese Website zeigt das Konzept, keinen bereits betriebenen Agrardienst.",
+    "roadmapNow": "Grundlage",
+    "readiness": "Heute ein Konzept. Als Nächstes die Prüfung im Feld.",
+    "expertLabel": "Fachwissen als Grundlage",
+    "expertTitle": "Der Agronom bleibt Teil der Entscheidung.",
+    "expertBody": "GROW soll Befunde zusammenführen, Unsicherheit sichtbar machen und Empfehlungen überprüfbar halten. Fachliches Urteil bestimmt die Maßnahmen im Feld; Korrekturen werden Teil der Dokumentation."
   }
 }

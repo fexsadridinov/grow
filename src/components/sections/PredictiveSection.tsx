@@ -21,22 +21,22 @@ export function PredictiveSection() {
         {predictiveModules.map((module) => (
           <article
             key={module.id}
-            className="min-h-[220px] rounded-xl border border-ink/10 bg-paper p-6"
+            className="min-h-[220px] min-w-0 rounded-xl border border-ink/10 bg-paper p-6"
           >
-            <div className="flex items-start justify-between gap-4">
+            <div className="flex flex-wrap items-start justify-between gap-4">
               <h3 className="min-w-0 text-xl tracking-[-0.03em]">
                 {t(`modules.${module.id}.title`)}
               </h3>
               <ConceptualMark>{common("conceptualOutput")}</ConceptualMark>
             </div>
             {module.kind === "range" ? (
-              <p className="mt-8 font-mono text-2xl tracking-tight">
+              <p className="mt-8 flex flex-wrap items-center gap-y-2 font-mono text-2xl tracking-tight">
                 {t(`modules.${module.id}.from`)}
                 <span className="mx-2 text-olive">→</span>
                 {t(`modules.${module.id}.to`)}
               </p>
             ) : (
-              <p className="mt-8 font-mono text-2xl tracking-tight">
+              <p className="mt-8 flex flex-wrap items-center gap-y-2 font-mono text-2xl tracking-tight">
                 {t(`modules.${module.id}.value`)}
               </p>
             )}

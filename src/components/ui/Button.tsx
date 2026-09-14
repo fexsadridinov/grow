@@ -45,7 +45,7 @@ export function Button(props: ButtonProps) {
   if (isLink(props)) {
     if (props.href.startsWith("/") || props.href.startsWith("#")) {
       return (
-        <Link href={props.href} className={classes} onClick={props.onClick}>
+        <Link prefetch={false} href={props.href} className={classes} onClick={props.onClick}>
           {props.children}
         </Link>
       );

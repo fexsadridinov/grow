@@ -10,8 +10,12 @@ export const brand = {
     "GROW is an agricultural intelligence platform designed to combine field imagery, agronomic knowledge, weather, soil, history, and outcomes into better field decisions.",
   supportingLine: "Agricultural intelligence, built around the field.",
   accent: "#86A56E",
-  contactEmail: "hello@grow.example",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://grow.example",
+  contactEmail: "sadridinovfakhri@gmail.com",
+  siteUrl:
+    process.env.NEXT_PUBLIC_SITE_URL ??
+    (process.env.VERCEL_PROJECT_PRODUCTION_URL
+      ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+      : "http://localhost:3000"),
   social: {
     linkedin: "",
     x: "",

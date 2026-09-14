@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { brand } from "@/config/brand";
 import { roles, type Role } from "@/data/knowledge";
 import {
-  submitEarlyAccess,
+  validateEarlyAccess,
   type EarlyAccessPayload,
   type FormErrorCode,
 } from "@/lib/early-access";
@@ -25,23 +25,33 @@ const emptyForm: EarlyAccessPayload = {
 export function FinalCTA() {
   const t = useTranslations();
   const [form, setForm] = useState<EarlyAccessPayload>(emptyForm);
-  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">(
-    "idle",
-  );
+  const [status, setStatus] = useState<
+    "idle" | "submitting" | "success" | "error"
+  >("idle");
   const [errorCode, setErrorCode] = useState<FormErrorCode | null>(null);
 
-  async function onSubmit(event: FormEvent<HTMLFormElement>) {
+  function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus("submitting");
     setErrorCode(null);
-    const result = await submitEarlyAccess(form);
+    const result = validateEarlyAccess(form);
     if (!result.ok) {
       setStatus("error");
       setErrorCode(result.error);
       return;
     }
+    const body = [
+      [t("forms.name"), form.name],
+      [t("forms.email"), form.email],
+      [t("forms.organization"), form.organization],
+      [t("forms.role"), t(`forms.roles.${form.role}`)],
+      [t("forms.country"), form.country ?? ""],
+      [t("forms.intent"), form.intent ?? ""],
+    ]
+      .map(([label, value]) => `${label}: ${value}`)
+      .join("\n\n");
+    window.location.href = `mailto:${brand.contactEmail}?subject=${encodeURIComponent(`${brand.name} — ${t("cta.requestAccess")}`)}&body=${encodeURIComponent(body)}`;
     setStatus("success");
-    setForm(emptyForm);
   }
 
   return (
@@ -61,9 +71,12 @@ export function FinalCTA() {
               {t("cta.partner")}
             </Button>
           </div>
-          <p className="mt-6 text-sm text-ink/50">
-            {t("finalCta.inquiries", { email: brand.contactEmail })}
-          </p>
+          <a
+            className="mt-6 inline-block text-sm text-olive underline underline-offset-4"
+            href={`mailto:${brand.contactEmail}`}
+          >
+            {brand.contactEmail}
+          </a>
         </div>
 
         <form
@@ -72,6 +85,7 @@ export function FinalCTA() {
           className="rounded-xl border border-ink/10 bg-paper p-5 sm:p-7"
           noValidate
         >
+          <p className="intro-form-note">{t("introduction.formNote")}</p>
           <Field label={t("forms.name")} htmlFor="name">
             <input
               id="name"
@@ -94,7 +108,10 @@ export function FinalCTA() {
               required
               value={form.email}
               onChange={(event) =>
-                setForm((current) => ({ ...current, email: event.target.value }))
+                setForm((current) => ({
+                  ...current,
+                  email: event.target.value,
+                }))
               }
               className={inputClass}
             />

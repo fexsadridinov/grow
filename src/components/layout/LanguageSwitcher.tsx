@@ -2,10 +2,11 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
+import { useRouter } from "next/navigation";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { Check, ChevronDown } from "lucide-react";
-import { displayCodes, localeNames, routing, type Locale } from "@/i18n/routing";
-import { usePathname, useRouter } from "@/i18n/navigation";
+import { displayCodes, localeNames, routing, getLocalePathPrefix, type Locale } from "@/i18n/routing";
+import { usePathname } from "@/i18n/navigation";
 import { cn } from "@/lib/utils";
 
 type LanguageSwitcherProps = {
@@ -14,6 +15,10 @@ type LanguageSwitcherProps = {
 };
 
 const HASH_STORAGE_KEY = "grow-locale-hash";
+
+function persistLocalePreference(next: Locale) {
+  document.cookie = `NEXT_LOCALE=${next}; Path=/; Max-Age=31536000; SameSite=Lax${window.location.protocol === "https:" ? "; Secure" : ""}`;
+}
 
 function queryOptions(root: HTMLDivElement | null): HTMLButtonElement[] {
   if (!root) {
@@ -104,12 +109,16 @@ export function LanguageSwitcher({
 
   function switchLocale(next: Locale) {
     const hash = window.location.hash;
+    const prefix = getLocalePathPrefix(next);
+    const target = `${prefix}${pathname === "/" ? "" : pathname}` || "/";
+    // Persist before navigation so the root URL resolves to the chosen language.
+    persistLocalePreference(next);
     if (hash) {
       sessionStorage.setItem(HASH_STORAGE_KEY, hash);
     }
-    router.replace(pathname, { locale: next });
     setOpen(false);
     onAfterSelect?.();
+    router.replace(`${target}${window.location.search}${hash}`, { scroll: false });
   }
 
   if (variant === "mobile") {

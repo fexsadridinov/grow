@@ -520,7 +520,7 @@
     "role": "Fonction",
     "country": "Pays",
     "intent": "Quel problème GROW devrait-il résoudre en premier ?",
-    "success": "Merci. Nous vous écrirons à l’ouverture de la liste d’accès anticipé.",
+    "success": "Votre brouillon est prêt. Envoyez-le depuis votre messagerie pour finaliser la demande. Si elle ne s’est pas ouverte, utilisez le lien e-mail à côté du formulaire.",
     "errors": {
       "name": "Veuillez indiquer votre nom.",
       "email": "Veuillez indiquer une adresse e-mail valide.",
@@ -545,7 +545,7 @@
   "legalPages": {
     "privacyTitle": "Confidentialité",
     "privacyP1": "Cette page est un espace réservé. GROW est un site de concept produit. Une politique de confidentialité complète sera publiée avant tout recueil de données en production.",
-    "privacyP2": "Le formulaire d’accès anticipé n’enregistre actuellement rien d’autre qu’un journal serveur des champs soumis. Pour toute question, contactez {email}.",
+    "privacyP2": "Le formulaire prépare un e-mail dans votre messagerie. Les données saisies ne sont ni envoyées à ce site ni conservées par celui-ci. Votre langue est mémorisée dans un cookie. Questions : {email}.",
     "termsTitle": "Conditions d’utilisation",
     "termsP1": "Cette page est un espace réservé. Les visualisations produit de ce site sont des représentations conceptuelles de GROW, non un système de production en service et non une offre commerciale.",
     "termsP2": "Des conditions d’utilisation officielles seront publiées avant tout déploiement payant ou opérationnel. Contactez {email} pour toute discussion de partenariat."
@@ -594,23 +594,23 @@
     "items": {
       "field-14": {
         "name": "Nord 14",
-        "code": "FIELD 14",
+        "code": "PARCELLE 14",
         "primaryConcern": "Possible stress azoté",
         "recommendedAction": "Inspecter cinq emplacements dans la zone concernée et confirmer par analyse tissulaire."
       },
       "field-7": {
         "name": "Est 7",
-        "code": "FIELD 7",
+        "code": "PARCELLE 7",
         "primaryConcern": "Risque de maladie fongique en hausse"
       },
       "field-21": {
         "name": "Sud 21",
-        "code": "FIELD 21",
+        "code": "PARCELLE 21",
         "primaryConcern": "Humidité du sol prévue sous la cible d’ici 4 jours"
       },
       "field-3": {
         "name": "Ouest 3",
-        "code": "FIELD 3"
+        "code": "PARCELLE 3"
       }
     },
     "risks": {
@@ -631,5 +631,70 @@
       "t2-21": "Prévision d’humidité passée sous la cible",
       "t1-3": "Couvert uniforme sur l’ensemble de la parcelle"
     }
+  },
+  "introduction": {
+    "headline": "L’intelligence.\nAncrée dans le terrain.",
+    "subhead": "Le socle intelligent des décisions agricoles.",
+    "status": "En développement · Ouverts aux collaborations",
+    "imageAlt": "Vue aérienne illustrative de parcelles géométriques aux tons verts et ocres discrets.",
+    "imageNote": "Paysage généré · Couche parcellaire conceptuelle",
+    "scroll": "Découvrir le système",
+    "principle": "Les bonnes décisions commencent par une vue d’ensemble.",
+    "principleBody": "Une feuille pâle est un signal. Son sens dépend du sol, de la météo et de tout ce qui a précédé. GROW est conçu pour relier ces éléments.",
+    "heritageLabel": "Notre point de départ",
+    "heritageTitle": "Trois générations de savoir-faire. Un système intelligent.",
+    "heritageBody": "GROW repose sur une conviction : le savoir accumulé par des générations d’agriculteurs ne doit pas se perdre entre les saisons. Issu de trois générations d’agriculture familiale, notre projet relie le jugement de terrain à une nouvelle intelligence parcellaire.",
+    "heritageEnd": "La technologie doit enrichir la compréhension de l’agriculteur. Et chaque saison doit laisser davantage de connaissances.",
+    "systemLabel": "01 / L’idée",
+    "systemTitle": "Une parcelle est un système vivant. Son intelligence doit l’être aussi.",
+    "systemBody": "Plus qu’un tableau de mesures isolées : une compréhension continue de la parcelle. Ce qui a changé, pourquoi c’est important, quoi vérifier et ce qui s’est passé ensuite.",
+    "demoLabel": "02 / Une décision expliquée",
+    "demoTitle": "Du signal à la prochaine étape.",
+    "demoBody": "Explorez un scénario représentatif. Changez de problème, suivez les éléments de preuve et découvrez comment une décision enrichit l’historique de la parcelle.",
+    "scenarioLabel": "Choisir un scénario",
+    "nitrogen": "Stress nutritionnel",
+    "water": "Stress hydrique",
+    "disease": "Pression sanitaire",
+    "observation": "Observation",
+    "context": "Contexte parcellaire",
+    "decision": "Prochaine décision",
+    "outcome": "Résultat à suivre",
+    "nitrogenObservation": "Une chlorose irrégulière apparaît sur les feuilles âgées de la zone nord.",
+    "nitrogenContext": "Blé d’hiver. Pluies récentes. La disponibilité de l’azote reste incertaine ; les seuls symptômes visuels ne confirment pas une carence.",
+    "nitrogenDecision": "Inspectez cinq points représentatifs. Comparez les analyses foliaires et les nitrates du sol avant de prévoir un apport.",
+    "nitrogenOutcome": "Consignez l’intervention puis comparez la reprise du couvert à des zones témoins non traitées.",
+    "waterObservation": "Le couvert présente une vigueur réduite sur une partie surélevée de la parcelle.",
+    "waterContext": "Texture du sol, humidité racinaire et précipitations doivent être examinées ensemble. L’aspect du couvert ne remplace pas un bilan hydrique.",
+    "waterDecision": "Vérifiez l’humidité à la profondeur des racines et les prévisions avant de décider si une irrigation est justifiée.",
+    "waterOutcome": "Comparez humidité et réaction du couvert, en distinguant pluie et irrigation.",
+    "diseaseObservation": "Des lésions foliaires sont signalées après plusieurs jours humides.",
+    "diseaseContext": "Le stade de développement, les références régionales et la répartition des lésions peuvent modifier l’évaluation. Une photo ne confirme pas l’agent pathogène.",
+    "diseaseDecision": "Inspectez les étages foliaires inférieurs et demandez une confirmation agronomique avant d’envisager un créneau de traitement.",
+    "diseaseOutcome": "Suivez les lésions et les nouvelles pousses. Consignez la date du traitement et les conditions du milieu.",
+    "sample": "Scénario illustratif · Aucune analyse en direct",
+    "inspect": "Traçabilité des observations",
+    "record": "Consigner une inspection fictive",
+    "recorded": "Inspection fictive consignée. Des observations complémentaires restent nécessaires.",
+    "reset": "Réinitialiser le scénario",
+    "awaiting": "Vérification terrain attendue",
+    "reviewed": "Inspection consignée",
+    "architectureLabel": "03 / Au cœur du système",
+    "architectureTitle": "De multiples signaux. Un modèle parcellaire.",
+    "architectureBody": "Une architecture conçue pour relier observation, connaissances et décisions opérationnelles. Il s’agit de couches prévues, pas d’intégrations déjà déployées.",
+    "sensing": "Observer la parcelle",
+    "sensingBody": "D’abord les photos, notes de terrain, sols et météo. Puis les séries satellitaires, images géoréférencées de drones et capteurs RGB, multispectraux et thermiques.",
+    "reasoning": "Construire la compréhension",
+    "reasoningBody": "Les modèles vision-langage identifient les observations. La génération augmentée par récupération (RAG) les relie à l’agronomie de la culture, aux références régionales et à l’historique parcellaire, avec sources traçables et incertitude explicite.",
+    "operations": "Éclairer la décision",
+    "operationsBody": "L’agronome examine les priorités selon les délais, ressources et contraintes locales. À terme : zones de gestion, cartes de préconisation, connexion aux machines et modèle apprenant des résultats.",
+    "exploreTechnical": "Explorer les notes techniques",
+    "heritageCaption": "Le savoir se transmet. Les preuves s’accumulent.",
+    "formNote": "Votre messagerie ouvrira une demande préparée. Vérifiez-la puis envoyez-la. Ce site ne conserve pas vos données.",
+    "roadmapNote": "La plateforme est en développement. Toutes les couches sont prévues ; ce site présente le concept, pas un service agricole déployé.",
+    "roadmapNow": "Fondations",
+    "readiness": "Le concept aujourd’hui. L’épreuve du terrain demain.",
+    "expertLabel": "L’expertise au cœur du projet",
+    "expertTitle": "L’agronome reste au centre des décisions.",
+    "expertBody": "GROW vise à réunir les preuves, expliciter l’incertitude et rendre les recommandations vérifiables. Le jugement professionnel guide les actions au champ ; les corrections enrichissent l’historique."
   }
 }

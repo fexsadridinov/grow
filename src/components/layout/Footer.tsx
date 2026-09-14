@@ -27,7 +27,7 @@ export function Footer() {
               <ul className="space-y-2.5">
                 {footerNav.map((item) => (
                   <li key={item.href}>
-                    <Link
+                    <Link prefetch={false}
                       href={item.href}
                       className="text-[15px] text-ink/75 transition-colors hover:text-ink"
                     >
@@ -42,7 +42,7 @@ export function Footer() {
               <ul className="space-y-2.5">
                 {legalNav.map((item) => (
                   <li key={item.href}>
-                    <Link
+                    <Link prefetch={false}
                       href={item.href}
                       className="text-[15px] text-ink/75 transition-colors hover:text-ink"
                     >

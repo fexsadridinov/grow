@@ -63,6 +63,7 @@ export function Navbar() {
     if (!open) {
       return;
     }
+    const returnFocus = hamburgerRef.current;
     scrollYRef.current = lockPageScroll();
     const frame = window.requestAnimationFrame(() => {
       closeRef.current?.focus();
@@ -70,6 +71,21 @@ export function Navbar() {
     const onKey = (event: KeyboardEvent) => {
       if (event.key === "Escape") {
         setOpen(false);
+      }
+      if (event.key === "Tab") {
+        const focusable = document.querySelectorAll<HTMLElement>(
+          '#mobile-nav a[href], #mobile-nav button:not(:disabled)',
+        );
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        const insideMenu = document.getElementById("mobile-nav")?.contains(document.activeElement);
+        if (event.shiftKey && (document.activeElement === first || !insideMenu)) {
+          event.preventDefault();
+          last?.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first?.focus();
+        }
       }
     };
     const onResize = () => {
@@ -84,6 +100,7 @@ export function Navbar() {
       document.removeEventListener("keydown", onKey);
       window.removeEventListener("resize", onResize);
       unlockPageScroll(scrollYRef.current);
+      returnFocus?.focus({ preventScroll: true });
     };
   }, [open]);
 
@@ -103,14 +120,14 @@ export function Navbar() {
     >
       <div className="pt-[env(safe-area-inset-top)]">
         <div className="mx-auto flex h-16 w-full max-w-[1440px] items-center justify-between gap-4 px-5 sm:h-[4.25rem] sm:px-8 lg:px-12">
-        <Wordmark animate />
+        <Wordmark size="md" animate />
 
         <nav
           className="hidden min-w-0 flex-1 items-center justify-center gap-x-4 gap-y-1 xl:flex xl:gap-x-6"
           aria-label={t("common.primaryNav")}
         >
           {primaryNav.map((item) => (
-            <Link
+            <Link prefetch={false}
               key={item.href}
               href={item.href}
               className="whitespace-nowrap text-[13.5px] font-medium tracking-[-0.01em] text-ink/70 transition-colors hover:text-ink"
@@ -174,6 +191,7 @@ export function Navbar() {
           animate={{ opacity: 1 }}
           exit={{
             opacity: 1,
+            pointerEvents: "none",
             transition: { duration: reduce ? 0.12 : CLOSE_DURATION, ease: easePremium },
           }}
         >
@@ -213,7 +231,7 @@ export function Navbar() {
               {t("common.mobileNav")}
             </span>
             <div className="flex h-16 w-full items-center justify-between sm:h-[4.25rem]">
-              <Wordmark />
+              <Wordmark size="md" />
               <button
                 ref={closeRef}
                 type="button"
@@ -260,7 +278,7 @@ export function Navbar() {
                         }
                   }
                 >
-                  <Link
+                  <Link prefetch={false}
                     href={item.href}
                     className="block border-b border-ink/8 py-4 text-lg font-medium text-ink"
                     onClick={closeMenu}

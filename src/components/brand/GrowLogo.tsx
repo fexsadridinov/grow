@@ -109,7 +109,7 @@ export function GrowLogo({
   }
 
   return (
-    <Link
+    <Link prefetch={false}
       href={href}
       className="inline-flex rounded-sm"
       aria-label={brand.productName}

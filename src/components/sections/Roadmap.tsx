@@ -6,12 +6,13 @@ import { Reveal } from "@/components/ui/Reveal";
 
 export function Roadmap() {
   const t = useTranslations("roadmap");
+  const intro = useTranslations("introduction");
 
   return (
     <Section id="roadmap">
       <Reveal>
         <SectionHeading eyebrow={t("eyebrow")} title={t("title")}>
-          <p>{t("body")}</p>
+          <p>{intro("roadmapNote")}</p>
         </SectionHeading>
       </Reveal>
 
@@ -24,10 +25,15 @@ export function Roadmap() {
             <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:gap-16">
               <div className="min-w-0 lg:w-64 lg:shrink-0">
                 <p className="tech-label text-olive">
-                  {String(index + 1).padStart(2, "0")} · {t(`${group.id}.label`)}
+                  {String(index + 1).padStart(2, "0")} ·{" "}
+                  {group.id === "now"
+                    ? intro("roadmapNow")
+                    : t(`${group.id}.label`)}
                 </p>
                 <h3 className="mt-3 text-3xl tracking-[-0.04em]">
-                  {t(`${group.id}.label`)}
+                  {group.id === "now"
+                    ? intro("roadmapNow")
+                    : t(`${group.id}.label`)}
                 </h3>
                 <p className="mt-2 text-ink/60">{t(`${group.id}.caption`)}</p>
               </div>
@@ -46,7 +52,10 @@ function RoadmapItems({ group }: { group: (typeof roadmap)[number] }) {
   const t = useTranslations("roadmap");
   const items =
     group.id === "now"
-      ? group.items.map((item) => ({ key: item, label: t(`now.items.${item}`) }))
+      ? group.items.map((item) => ({
+          key: item,
+          label: t(`now.items.${item}`),
+        }))
       : group.id === "next"
         ? group.items.map((item) => ({
             key: item,

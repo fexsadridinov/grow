@@ -11,15 +11,10 @@ export type EarlyAccessPayload = {
 };
 
 export type FormErrorCode =
-  | "name"
-  | "email"
-  | "organization"
-  | "role"
-  | "generic";
+  "name" | "email" | "organization" | "role" | "generic";
 
 export type EarlyAccessResult =
-  | { ok: true }
-  | { ok: false; error: FormErrorCode };
+  { ok: true } | { ok: false; error: FormErrorCode };
 
 export function isRole(value: string): value is Role {
   return (roles as readonly string[]).includes(value);
@@ -40,29 +35,5 @@ export function validateEarlyAccess(
   if (!isRole(payload.role)) {
     return { ok: false, error: "role" };
   }
-  return { ok: true };
-}
-
-export async function submitEarlyAccess(
-  payload: EarlyAccessPayload,
-): Promise<EarlyAccessResult> {
-  const validity = validateEarlyAccess(payload);
-  if (!validity.ok) {
-    return validity;
-  }
-
-  const response = await fetch("/api/early-access", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload),
-  });
-
-  if (!response.ok) {
-    const body = (await response.json().catch(() => null)) as
-      | { error?: FormErrorCode }
-      | null;
-    return { ok: false, error: body?.error ?? "generic" };
-  }
-
   return { ok: true };
 }
