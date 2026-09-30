@@ -39,14 +39,16 @@
     "roadmap": "Roadmap",
     "earlyAccess": "Early Access",
     "privacy": "Privacy",
-    "terms": "Terms"
+    "terms": "Terms",
+    "demo": "Demo"
   },
   "cta": {
     "requestAccess": "Request early access",
     "exploreSystem": "Explore the system",
     "partner": "Partner with us",
     "returnHome": "Return home",
-    "submitting": "Submitting…"
+    "submitting": "Submitting…",
+    "openDemo": "Open the demo"
   },
   "hero": {
     "eyebrow": "Agricultural intelligence",
@@ -540,7 +542,8 @@
   },
   "footer": {
     "supportingLine": "Agricultural intelligence, built around the field.",
-    "statement": "Intelligence that grows with every field."
+    "statement": "Intelligence that grows with every field.",
+    "demoNote": "Explore the workspace with sample data."
   },
   "legalPages": {
     "privacyTitle": "Privacy",

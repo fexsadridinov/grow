@@ -16,6 +16,7 @@ export const brand = {
     (process.env.VERCEL_PROJECT_PRODUCTION_URL
       ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
       : "http://localhost:3000"),
+  toolUrl: "https://grow-workspace-demo.fexsadridinov.chatgpt.site",
   social: {
     linkedin: "",
     x: "",
@@ -23,3 +24,8 @@ export const brand = {
 } as const;
 
 export type Brand = typeof brand;
+
+/** The public demo currently supports English and Russian. */
+export function toolUrlForLocale(locale: string): string {
+  return `${brand.toolUrl}/?lang=${locale === "ru" ? "ru" : "en"}`;
+}

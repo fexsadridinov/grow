@@ -1,10 +1,13 @@
-import { useTranslations } from "next-intl";
+import { ArrowUpRight } from "lucide-react";
+import { useLocale, useTranslations } from "next-intl";
+import { toolUrlForLocale } from "@/config/brand";
 import { footerNav, legalNav } from "@/config/navigation";
 import { Wordmark } from "@/components/ui/Wordmark";
 import { Link } from "@/i18n/navigation";
 
 export function Footer() {
   const t = useTranslations();
+  const toolUrl = toolUrlForLocale(useLocale());
   const year = new Date().getFullYear();
 
   return (
@@ -18,6 +21,16 @@ export function Footer() {
             </p>
             <p className="mt-2 text-[13.5px] leading-5 text-ink/45">
               {t("footer.statement")}
+            </p>
+            <a
+              href={toolUrl}
+              className="mt-6 inline-flex min-h-11 items-center gap-2 rounded-lg border border-ink/15 px-4 text-[14px] font-semibold text-forest transition-colors hover:border-forest/35 hover:bg-paper/60"
+            >
+              {t("cta.openDemo")}
+              <ArrowUpRight size={16} aria-hidden="true" />
+            </a>
+            <p className="mt-2 text-[12px] leading-5 text-ink/55">
+              {t("footer.demoNote")}
             </p>
           </div>
 

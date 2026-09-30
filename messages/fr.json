@@ -39,14 +39,16 @@
     "roadmap": "Feuille de route",
     "earlyAccess": "Accès anticipé",
     "privacy": "Confidentialité",
-    "terms": "Conditions"
+    "terms": "Conditions",
+    "demo": "Démo"
   },
   "cta": {
     "requestAccess": "Demander un accès anticipé",
     "exploreSystem": "Explorer le système",
     "partner": "Devenir partenaire",
     "returnHome": "Retour à l’accueil",
-    "submitting": "Envoi…"
+    "submitting": "Envoi…",
+    "openDemo": "Ouvrir la démo"
   },
   "hero": {
     "eyebrow": "Intelligence agricole",
@@ -540,7 +542,8 @@
   },
   "footer": {
     "supportingLine": "L’intelligence agricole, conçue autour de la parcelle.",
-    "statement": "Une intelligence qui grandit avec chaque parcelle."
+    "statement": "Une intelligence qui grandit avec chaque parcelle.",
+    "demoNote": "Découvrez l’espace de travail avec des données de démonstration."
   },
   "legalPages": {
     "privacyTitle": "Confidentialité",

@@ -39,14 +39,16 @@
     "roadmap": "Hoja de ruta",
     "earlyAccess": "Acceso anticipado",
     "privacy": "Privacidad",
-    "terms": "Términos"
+    "terms": "Términos",
+    "demo": "Demo"
   },
   "cta": {
     "requestAccess": "Solicitar acceso anticipado",
     "exploreSystem": "Explorar el sistema",
     "partner": "Asociarse con nosotros",
     "returnHome": "Volver al inicio",
-    "submitting": "Enviando…"
+    "submitting": "Enviando…",
+    "openDemo": "Abrir la demo"
   },
   "hero": {
     "eyebrow": "Inteligencia agrícola",
@@ -540,7 +542,8 @@
   },
   "footer": {
     "supportingLine": "Inteligencia agrícola, construida en torno a la parcela.",
-    "statement": "Inteligencia que crece con cada parcela."
+    "statement": "Inteligencia que crece con cada parcela.",
+    "demoNote": "Explore el espacio de trabajo con datos de ejemplo."
   },
   "legalPages": {
     "privacyTitle": "Privacidad",

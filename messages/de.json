@@ -39,14 +39,16 @@
     "roadmap": "Roadmap",
     "earlyAccess": "Frühzugang",
     "privacy": "Datenschutz",
-    "terms": "Nutzungsbedingungen"
+    "terms": "Nutzungsbedingungen",
+    "demo": "Demo"
   },
   "cta": {
     "requestAccess": "Frühzugang anfragen",
     "exploreSystem": "Das System erkunden",
     "partner": "Partner werden",
     "returnHome": "Zur Startseite",
-    "submitting": "Wird gesendet…"
+    "submitting": "Wird gesendet…",
+    "openDemo": "Demo öffnen"
   },
   "hero": {
     "eyebrow": "Intelligenz für die Landwirtschaft",
@@ -540,7 +542,8 @@
   },
   "footer": {
     "supportingLine": "Intelligenz für die Landwirtschaft, ausgerichtet auf den Schlag.",
-    "statement": "Intelligenz, die mit jedem Schlag wächst."
+    "statement": "Intelligenz, die mit jedem Schlag wächst.",
+    "demoNote": "Entdecken Sie den Arbeitsbereich mit Beispieldaten."
   },
   "legalPages": {
     "privacyTitle": "Datenschutz",

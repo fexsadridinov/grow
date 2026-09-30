@@ -1,9 +1,10 @@
 "use client";
 
 import { useEffect, useId, useRef, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { ArrowUpRight, Menu, X } from "lucide-react";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { toolUrlForLocale } from "@/config/brand";
 import { primaryNav } from "@/config/navigation";
 import { Button } from "@/components/ui/Button";
 import { Wordmark } from "@/components/ui/Wordmark";
@@ -42,6 +43,7 @@ function unlockPageScroll(scrollY: number) {
 
 export function Navbar() {
   const t = useTranslations();
+  const toolUrl = toolUrlForLocale(useLocale());
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const reduce = useReducedMotion();
@@ -137,7 +139,15 @@ export function Navbar() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 xl:flex">
+        <div className="hidden shrink-0 items-center gap-3 xl:flex">
+          <a
+            href={toolUrl}
+            className="inline-flex min-h-10 items-center gap-1 whitespace-nowrap rounded-md px-1 text-[13.5px] font-semibold text-forest transition-colors hover:text-ink"
+            aria-label={t("cta.openDemo")}
+          >
+            {t("nav.demo")}
+            <ArrowUpRight size={14} aria-hidden="true" />
+          </a>
           <LanguageSwitcher />
           <Button href="/#early-access" className="h-10 px-4 text-[13.5px]">
             {t("cta.requestAccess")}
@@ -293,8 +303,9 @@ export function Navbar() {
               <Button href="/#early-access" onClick={closeMenu}>
                 {t("cta.requestAccess")}
               </Button>
-              <Button href="/#system" variant="secondary" onClick={closeMenu}>
-                {t("cta.exploreSystem")}
+              <Button href={toolUrl} variant="secondary" onClick={closeMenu} className="gap-2">
+                {t("cta.openDemo")}
+                <ArrowUpRight size={16} aria-hidden="true" />
               </Button>
             </div>
           </div>
